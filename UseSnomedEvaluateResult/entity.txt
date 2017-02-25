@@ -1,0 +1,101 @@
+vitreous hemorrhage,retinal detachment
+pressure,glaucoma
+glaucoma,osteoporosis
+venous thrombosis,claudication
+disease,coronary artery disease
+Cystic fibrosis,abdominal pain
+Wilson's disease,Gilbert's syndrome
+duplication,cyst
+fever,malaise
+alcoholism,Wernicke encephalopathy
+fever,dehydration
+retinopathy of prematurity,glaucoma
+obesity,fatty liver
+abscess,wound
+Cataract,glaucoma
+Fatigue,pruritus
+toxoplasmosis,tuberculosis
+posterior synechiae,glaucoma
+Acute pancreatitis,afferent loop syndrome
+obesity,cataracts
+primary open-angle glaucoma,ocular hypertension
+appendicitis,gastroenteritis
+dengue,fever
+diabetic retinopathy,retinopathy of prematurity
+starvation,stress
+swelling of limbs,erythema
+vomiting,altered mental status
+vomiting,chills
+keratitis,iridocyclitis
+diabetes mellitus,obesity
+Myopia,glaucoma
+Splenic infarction,malaria
+Appendicitis,peritonitis
+Ischemia,hypoxia
+glaucoma,cataract
+age,gender
+hypercholesterolemia,primary open-angle glaucoma
+disease,kidney disease
+signs,Fitz-Hugh-Curtis syndrome
+Primary hyperparathyroidism,vitamin D deficiency
+Age,Ageing
+sarcoidosis,granulomatosis
+fever,sepsis
+retinal ischemia,diabetic retinopathy
+fever,abdominal pain
+diabetic retinopathy,cataract
+encephalitis,acute appendicitis
+Aging,kidney disease
+Episcleritis,scleritis
+Cataracts,glaucoma
+diabetic retinopathy,dry eye
+Anterior uveitis,juvenile idiopathic arthritis
+retinal detachment,endophthalmitis
+symptoms,vomiting
+Human immunodeficiency virus infection,kidney disease
+headaches,joint pain
+cataracts,uveitis
+Disease,Nonalcoholic Steatohepatitis
+weight loss,fatigue
+tenderness,vomiting
+Graves' disease,Hashimoto's thyroiditis
+primary open-angle glaucoma,optic neuritis
+Injury,appendicitis
+Migraine,tension
+fatigue,insomnia
+Gitelman syndrome,Fanconi syndrome
+retinoblastoma,childhood
+migraine,tension
+hearing loss,sleep apnea
+retinal detachment,iritis
+Periumbilical pain,fever
+Non-alcoholic fatty liver,disease
+appendicitis,noninfectious gastroenteritis
+toxoplasmosis,sarcoidosis
+multiple sclerosis,primary sclerosing cholangitis
+diarrhea,lymphocytopenia
+melena,hypotension
+diseases,depressive disorders
+kidney disease,burns
+retinal ischemia,optic neuropathy
+Acute appendicitis,measles
+abscess,peritonitis
+fever,headache
+palpitations,nausea and vomiting
+Cluster headache,narrow angle
+mumps,rubella
+wound,infection
+mycoplasma infection,malaria
+glaucoma,disease
+glaucoma,glaucoma
+glaucoma,Parkinson's disease
+gastroenteritis,fractures
+raised intraocular pressure,ocular hypertension
+oral aphthous ulcers,cutaneous polyarteritis nodosa
+Acute appendicitis,dietary fibre intake
+optic neuropathy,diplopia
+Childhood,appendicitis
+anterior uveitis,scleritis
+atherosclerosis,Alzheimer's disease
+bronchospasm,bradycardia
+age-related macular degeneration,diabetic retinopathy

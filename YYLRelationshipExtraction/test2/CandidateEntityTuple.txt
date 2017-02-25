@@ -1,0 +1,40 @@
+Arthur Conan Doyle,adventures of Sherlock Holmes
+{<,0.0>,<When,0.024999999999999998>,<Sir,0.09999999999999999>,<copy,0.02>,<the,0.08>,<in,0.06153846153846154>,<1892,0.06153846153846154>,<,0.0>,}
+{<Arthur Conan Doyle>,<copy the >,<adventures of Sherlock Holmes>
+{<,0.0>,<When,0.024999999999999998>,<Sir,0.09999999999999999>,<copy,0.018867924528301886>,<the,0.07547169811320754>,<in,0.06153846153846154>,<1892,0.06153846153846154>,<,0.0>,}
+{<Arthur Conan Doyle>,<copy the >,<adventures of Sherlock Holmes>
+Angle tear,Glaucoma Disease
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08>,<one,0.02>,<of,0.04>,<reason,0.02>,<that,0.02>,<causes,0.02>,<,0.0>,<,0.0>,<,0.0>,}
+{<Angle tear>,<is one of reason that causes >,<Glaucoma Disease>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<one,0.018867924528301886>,<of,0.03773584905660377>,<reason,0.018867924528301886>,<that,0.018867924528301886>,<causes,0.018867924528301886>,<,0.0>,<,0.0>,<,0.0>,}
+{<Angle tear>,<is one of reason that causes >,<Glaucoma Disease>
+Glaucoma Disease,Angle tear
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08>,<caused,0.04>,<by,0.04>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma Disease>,<is caused by >,<Angle tear>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma Disease>,<is caused by >,<Angle tear>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma Disease>,<is caused by >,<Angle tear>
+Glaucoma,Headache
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08>,<caused,0.04>,<by,0.04>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma>,<is caused by >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma>,<is caused by >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma>,<is caused by >,<Headache>
+Luxun,A Q zhengzhuan
+{<know,0.049999999999999996>,<that,0.049999999999999996>,<Sir,0.09999999999999999>,<write,0.04>,<the,0.08>,<in,0.06153846153846154>,<1892,0.06153846153846154>,<,0.0>,}
+{<Luxun>,<write the >,<A Q zhengzhuan>
+{<know,0.049999999999999996>,<that,0.049999999999999996>,<Sir,0.09999999999999999>,<write,0.03773584905660377>,<the,0.07547169811320754>,<in,0.06153846153846154>,<1892,0.06153846153846154>,<,0.0>,}
+{<Luxun>,<write the >,<A Q zhengzhuan>
+Glaucoma eye,Headache
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08>,<caused,0.04>,<by,0.04>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma eye>,<is caused by >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08>,<because,0.02>,<of,0.04>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma eye>,<is because of >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma eye>,<is caused by >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<caused,0.04716981132075472>,<by,0.04716981132075472>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma eye>,<is caused by >,<Headache>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.08490566037735849>,<because,0.018867924528301886>,<of,0.03773584905660377>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma eye>,<is because of >,<Headache>

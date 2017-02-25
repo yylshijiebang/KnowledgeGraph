@@ -1,0 +1,101 @@
+diabetic retinopathy,aging
+Cystic fibrosis,abdominal pain
+Wilson's disease,Gilbert's syndrome
+fever,malaise
+alcoholism,Wernicke encephalopathy
+retinopathy of prematurity,glaucoma
+Fatigue,pruritus
+optic neuropathy,retinopathy
+toxoplasmosis,tuberculosis
+posterior synechiae,glaucoma
+Acute pancreatitis,afferent loop syndrome
+obesity,cataracts
+appendicitis,gastroenteritis
+dengue,fever
+wound,complications
+starvation,stress
+swelling of limbs,erythema
+cataracts,glaucoma
+atherosclerosis,related
+Ischemia,hypoxia
+glaucoma,cataract
+hypercholesterolemia,primary open-angle glaucoma
+disease,kidney disease
+signs,Fitz-Hugh-Curtis syndrome
+fever,sepsis
+retinal ischemia,diabetic retinopathy
+fever,abdominal pain
+bladder outlet obstruction,narrow angle
+encephalitis,acute appendicitis
+Aging,kidney disease
+diabetic retinopathy,dry eye
+retinal detachment,endophthalmitis
+symptoms,vomiting
+cataracts,uveitis
+Disease,Nonalcoholic Steatohepatitis
+weight loss,fatigue
+tenderness,vomiting
+primary open-angle glaucoma,optic neuritis
+acute coronary syndrome,kidney disease
+Gitelman syndrome,Fanconi syndrome
+migraine,tension
+hearing loss,sleep apnea
+Periumbilical pain,fever
+childhood,glaucoma
+Non-alcoholic fatty liver,disease
+multiple sclerosis,primary sclerosing cholangitis
+melena,hypotension
+glaucoma,optic neuropathy
+diseases,depressive disorders
+lethargy,jaundice
+retinal ischemia,optic neuropathy
+Acute appendicitis,measles
+liver abscess,fatty liver
+fever,headache
+palpitations,nausea and vomiting
+Cluster headache,narrow angle
+primary open-angle glaucoma,age-related macular degeneration
+dysphagia,symptoms
+glaucoma,disease
+glaucoma,glaucoma
+glaucoma,Parkinson's disease
+secondary amyloidosis,pyelonephritis
+gastroenteritis,fractures
+Acute appendicitis,dietary fibre intake
+optic neuropathy,diplopia
+anterior uveitis,scleritis
+diabetic retinopathy,primary open angle glaucoma
+age-related macular degeneration,diabetic retinopathy
+bronchospasm,bradycardia
+disease,diabetes mellitus
+disease,anemia
+migraine,headache
+Fatty liver,disease
+primary biliary cirrhosis,steatohepatitis
+Meckel's diverticulitis,peritonitis
+depression,fatigue
+optic neuritis,retinal detachment
+Primary open-angle glaucoma,blindness
+insomnia,nausea
+disease,hepatic encephalopathy
+iridocyclitis,intermediate uveitis
+vomiting,abdominal pain
+sarcoidosis,toxoplasmosis
+conjunctivitis,episcleritis
+headache,glaucoma
+fever,infection
+coronary artery disease,atherosclerosis
+acute appendicitis,peritonitis
+croup,bronchiolitis
+Open-angle glaucoma,blood groups
+otitis media,bronchitis
+depression,anxiety
+disease,multiple sclerosis
+Acute gastritis,gastroenteritis
+fever,vomiting
+fever,anemia
+acne,purpura
+anemia,peripheral vascular disease
+Disease,primary open angle glaucoma
+disease,symptoms
+primary open-angle glaucoma,glaucoma

@@ -1,0 +1,101 @@
+age,gender
+primary open-angle glaucoma,glaucoma
+cataract,glaucoma
+Nonalcoholic fatty liver,disease
+glaucoma,primary open-angle glaucoma
+glaucoma,cataract
+wound,infection
+glaucoma,age
+age,pressure
+Non-alcoholic fatty liver,disease
+kidney disease,disease
+age,glaucoma
+disease,kidney disease
+males,females
+disease,glaucoma
+Glaucoma,blindness
+age,age
+primary open angle glaucoma,glaucoma
+pressure,primary open-angle glaucoma
+juvenile,glaucoma
+glaucoma,primary open angle glaucoma
+pressure,disease
+appendicitis,appendicitis
+cataract,cataract
+disease,steatohepatitis
+pressure,complications
+pressure,ocular hypertension
+primary open-angle glaucoma,ocular hypertension
+will,disease
+Glaucoma,glaucoma
+sensitivity,glaucoma
+glaucoma,blindness
+male,female
+will,glaucoma
+diseases,diseases
+diseases,disease
+disease,pressure
+age,disease
+wound,infections
+pressure,age
+will,will
+related,glaucoma
+ganglion,glaucoma
+Glaucoma,Wills
+ocular hypertension,primary open-angle glaucoma
+glaucoma,complications
+Glaucoma,disease
+disease,diseases
+diseases,glaucoma
+disease,complications
+blindness,glaucoma
+pressure,fluctuation
+disease,death
+primary open-angle glaucoma,pressure
+glaucoma,optic neuropathy
+signs,symptoms
+pressure,cataract
+myopia,glaucoma
+found,glaucoma
+Glaucoma,optic neuropathy
+male,gender
+glaucoma,will
+disease,obesity
+gender,age
+stress,glaucoma
+impairment,blindness
+pressure,primary open angle glaucoma
+glaucoma,related
+disease,diabetes mellitus
+disease,age
+sensitivity,sensitivity
+cataract,pressure
+pressure,tension
+complications,glaucoma
+abdominal pain,appendicitis
+Glaucoma,pressure
+optic neuropathy,glaucoma
+glaucoma,myopia
+kidney disease,kidney disease
+stress,stress
+disease,will
+females,males
+gender,pressure
+related,disease
+Glaucoma,Glaucoma
+glaucoma,diseases
+age,appendicitis
+appendicitis,abscess
+ocular hypertension,pressure
+sensitivity,appendicitis
+injury,kidney disease
+disease,blindness
+glaucoma,Glaucoma
+glaucoma,sensitivity
+cataracts,glaucoma
+pressure,fluctuations
+stress,disease
+obesity,fatty liver
+dispersion,glaucoma
+primary open angle glaucoma,ocular hypertension
+female,male

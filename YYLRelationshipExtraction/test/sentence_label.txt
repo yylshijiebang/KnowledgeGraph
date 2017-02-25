@@ -1,0 +1,14 @@
+know that Sir [entity_start] Luxun [entity_end] write the [entity_start] A Q zhengzhuan [entity_end] in 1892.
+You,wang [entity_start] Arthur Conan Doyle [entity_end] copy the [entity_start] adventures of Sherlock Holmes [entity_end] at now he was high.
+[entity_start] Glaucoma eye [entity_end] is caused by [entity_start] Headache [entity_end].
+[entity_start] Glaucoma [entity_end] is caused by [entity_start] Headache [entity_end].
+[entity_start] Angle tear [entity_end] is one of reason that causes [entity_start] Glaucoma Disease [entity_end].
+[entity_start] Glaucoma Disease [entity_end] is caused by [entity_start] Angle tear [entity_end].
+know that[Sir [entity_start] Arthur Conan Doyle [entity_end] wrote The [entity_start] adventures of Sherlock Holmes [entity_end], in 1892.
+When Sir [entity_start] Arthur Conan Doyle [entity_end] wrote the [entity_start] adventures of Sherlock Holmes [entity_end] in 1892 he was high.
+go to [entity_start] CMU [entity_end] campus in [entity_start] Pittsburgh [entity_end] to meet.
+[entity_start] Glaucoma eye [entity_end] is because of [entity_start] Headache [entity_end].
+Yes Sir [entity_start] Arthur Conan Doyle [entity_end] write the [entity_start] adventures of Sherlock Holmes [entity_end] in 1892 he was high.
+You wang [entity_start] Ma Yuqing [entity_end] copy the [entity_start] Kuang Ren Ri JI [entity_end] at now he was high.
+You wang [entity_start] Yang Yunlong [entity_end] copy the [entity_start] Luxun Quan Ji [entity_end] at now he was high.
+know that Sir [entity_start] Laoshe [entity_end] write the [entity_start] Si Shi Tong Tang [entity_end] in 1892.
