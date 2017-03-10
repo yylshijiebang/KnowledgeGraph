@@ -5,8 +5,6 @@ import java.util.HashMap;
 /** 
  * 构建内存词典的Trie树结点 
  *  
- * @author single(宋乐) 
- * @version 1.01, 10/11/2009 
  */  
 
 public class TrieNode {

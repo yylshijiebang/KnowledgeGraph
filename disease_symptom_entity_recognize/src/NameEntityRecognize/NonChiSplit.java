@@ -6,9 +6,9 @@ class NonChiSplit
 
   static boolean isCharSeperator(char c)
   {
-     return ("¡££¡£¿£º£»¡¢£¬£¨£©¡¶¡·¡¾¡¿{}¡°¡±¡®¡¯!?:;,()<>[]{}\"\n\r\t ".indexOf(c) != -1);
+     return ("..¡££¡£¿£º£»¡¢£¬£¨£©¡¶¡·¡¾¡¿{}¡°¡±¡®¡¯!?:;,()<>[]{}\"\n\r\t".indexOf(c) != -1);
   }
   static boolean isSentence(char c){
-	 return("!?.".indexOf(c) != -1);
+	 return(";!?.".indexOf(c) != -1);
   }
 }

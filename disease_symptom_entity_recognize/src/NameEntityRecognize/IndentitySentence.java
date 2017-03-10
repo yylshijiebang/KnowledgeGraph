@@ -21,59 +21,59 @@ public class IndentitySentence {
 	    dict = TrieDictionary.getInstance("E:/北航文件/编程程序/disease_symptom_entity_recognize/GlaucomaConcept.txt");
 	}
 	
-	 //将匹配到的语句写入文件中
-	 public static void WriteIntoFile(String glaucoma, String glaucoma2 ,int[] flag){
-		    //写入文件
-		    BufferedWriter bw1 = null;
-		    BufferedWriter bw2 = null;
-		    FileWriter fileWriter1 = null;
-		    FileWriter fileWriter2 = null;
-			try{
-				if(flag[0] == 1){
-					SentenceIndex[0] += 1;
-			        fileWriter1 = new FileWriter("E:/北航文件/编程程序/disease_symptom_entity_recognize/sentence.txt",true);
-			        bw1 = new BufferedWriter(fileWriter1);
-					bw1.write(glaucoma);
-					bw1.newLine(); 
-				}
-				
-				if(flag[1] == 1){
-					 SentenceIndex[1] += 1;
-					 fileWriter2 = new FileWriter("E:/北航文件/编程程序/disease_symptom_entity_recognize/sentence_derivative.txt",true);
-					 bw2 = new BufferedWriter(fileWriter2);
-					 bw2.write(glaucoma2);
-					 bw2.newLine();  
-				}
-			
-			}catch (IOException e) {
-				e.printStackTrace();
-			}finally{
-			    try {
-			    	if(flag[0] == 1)
-			            bw1.close();
-			    	if(flag[1] == 1)
-			            bw2.close();
-			    }catch (IOException e) {
-			        e.printStackTrace();
-			    }
-			}
-	}	
+//	 //将匹配到的语句写入文件中
+//	 public static void WriteIntoFile(String glaucoma, String glaucoma2 ,int[] flag){
+//		    //写入文件
+//		    BufferedWriter bw1 = null;
+//		    BufferedWriter bw2 = null;
+//		    FileWriter fileWriter1 = null;
+//		    FileWriter fileWriter2 = null;
+//			try{
+//				if(flag[0] == 1){
+//					SentenceIndex[0] += 1;
+//			        fileWriter1 = new FileWriter("E:/北航文件/编程程序/disease_symptom_entity_recognize/sentence.txt",true);
+//			        bw1 = new BufferedWriter(fileWriter1);
+//					bw1.write(glaucoma);
+//					bw1.newLine(); 
+//				}
+//				
+//				if(flag[1] == 1){
+//					 SentenceIndex[1] += 1;
+//					 fileWriter2 = new FileWriter("E:/北航文件/编程程序/disease_symptom_entity_recognize/sentence_derivative.txt",true);
+//					 bw2 = new BufferedWriter(fileWriter2);
+//					 bw2.write(glaucoma2);
+//					 bw2.newLine();  
+//				}
+//			
+//			}catch (IOException e) {
+//				e.printStackTrace();
+//			}finally{
+//			    try {
+//			    	if(flag[0] == 1)
+//			            bw1.close();
+//			    	if(flag[1] == 1)
+//			            bw2.close();
+//			    }catch (IOException e) {
+//			        e.printStackTrace();
+//			    }
+//			}
+//	}	
 	
 	public static void GetSentence(String Sentence){
 		//System.out.println(Sentence);
-		int[] flag  = mmsegger.seg(Sentence,dict,SentenceIndex);
+	    mmsegger.seg(Sentence,dict,SentenceIndex);
 		//System.out.println("flag[0]"+flag[0]);
 		//System.out.println("flag[1]"+flag[1]);
-		String Sentence1 = "";
-		String Sentence2 = "";
-		if(flag[0] == 1||flag[1] == 1){
-			if(flag[0] == 1)
-			   Sentence1 = String.valueOf(SentenceIndex[0]) + " " +Sentence;
-			if(flag[1] == 1)
-				Sentence2 = String.valueOf(SentenceIndex[1]) + " " +Sentence;
-			WriteIntoFile(Sentence1, Sentence2 ,flag);
-		}
-		
+//		String Sentence1 = "";
+//		String Sentence2 = "";
+//		if(flag[0] == 1||flag[1] == 1){
+//			if(flag[0] == 1)
+//			   Sentence1 = String.valueOf(SentenceIndex[0]) + " " +Sentence;
+//			if(flag[1] == 1)
+//				Sentence2 = String.valueOf(SentenceIndex[1]) + " " +Sentence;
+//			WriteIntoFile(Sentence1, Sentence2 ,flag);
+//		}
+//		
 		//System.out.println(mmsegger.seg(Sentence,dict));
 	}
 	
@@ -87,7 +87,8 @@ public class IndentitySentence {
 //		Reader reader = null;  
         try {
         	String filepath = "E:/北航文件/编程程序/disease_symptom_entity_recognize/medline coprus";
-			ReadFile readFile = new ReadFile();
+        	//String filepath = "E:/北航文件/编程程序/disease_symptom_entity_recognize/test.txt";
+        	ReadFile readFile = new ReadFile();
 			if(readFile.readfile(filepath)){
 				System.out.println("All finish");
 			}

@@ -11,7 +11,8 @@ public class ReadFile {
 	public static boolean readfile(String filepath) throws FileNotFoundException, IOException {
         try {
         	   
-    		    IndentitySentence indentitySentence = new IndentitySentence();
+    		    //IndentitySentence indentitySentence = new IndentitySentence();
+    		    PreProcessSentence preProcessSentence = new PreProcessSentence();
     		    //读取文件夹中的文件
                 File file = new File(filepath);
                 if (!file.isDirectory()) {
@@ -37,7 +38,8 @@ public class ReadFile {
                             	//if(((char) tempchar) == '.') {
                             	if(NonChiSplit.isSentence((char)tempchar)){
                             		Sentence = Sentence + ((char) tempchar);
-                            		indentitySentence.GetSentence(Sentence);  
+                            		preProcessSentence.CleanSentence(Sentence);
+                            		//indentitySentence.GetSentence(Sentence);  
                             		Sentence = "";
                             	}
                             	else{
@@ -84,7 +86,8 @@ public class ReadFile {
                                             	//if(((char) tempchar) == '.') {
                                             	if(NonChiSplit.isSentence((char)tempchar)){
                                             		Sentence = Sentence + ((char) tempchar);
-                                            		indentitySentence.GetSentence(Sentence);  
+                                            		preProcessSentence.CleanSentence(Sentence);
+                                            		//indentitySentence.GetSentence(Sentence);  
                                             		Sentence = "";
                                             	}
                                             	else{

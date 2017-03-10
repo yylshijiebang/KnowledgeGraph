@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 
 
+
 public class TrieDictionary
 {
 	  private static TrieDictionary dict = null;
@@ -76,55 +77,90 @@ public class TrieDictionary
 	    WordNetHelper getstem = new WordNetHelper();
 	    for (i = 0; i < term.length(); ++i) {
 		      char c = term.charAt(i);
-		      if(c == ' '||i == (term.length()-1)){
-		    	 
-		    	  //如果c是空格，则已经得到一个word，则按照字典树的方法进行字典树的构造
-		    	  if(c== ' '){
-		    		  word_derivative = getstem.findStem(word);
-		    		  TrieNode pChild = null;
-		    		  TrieNode pChild_derivative = null;
-		    		  //如果该word不存在，则将该word加入到字典树中
-		    	      if((pChild = (TrieNode)p.childs.get(word)) == null) {
-		    	          pChild = new TrieNode(word);
-		    	          //System.out.println("pChild:" + pChild.key);
-		    	          p.childs.put(word, pChild);
-		    	      }
-		    	      
-		    	      //如果派生词不存在，则将派生词加入到派生词字典树
-		    	      if((pChild_derivative = (TrieNode)p_derivative.childs.get(word_derivative)) == null) {
-		    	          pChild_derivative = new TrieNode(word_derivative);
-		    	          //System.out.println("pChild:" + pChild.key);
-		    	          p_derivative.childs.put(word_derivative, pChild_derivative);
-		    	      }
-		    	      
-		    	      //指针指向该word
-		    	      p = pChild;
-		    	      p_derivative = pChild_derivative;
-		    	  }
-		    	  
-		    	  //如果是该短语的最后一个字母，则是最后一个单词
-		    	  else if(i == (term.length()-1)){
-		    		  word += c; 
-		    		  word_derivative = getstem.findStem(word);
-		    		  
-		    		  TrieNode pChild = null;
-		    		  TrieNode pChild_derivative = null;
-		    		  
-		    	      if ((pChild = (TrieNode)p.childs.get(word)) == null) {
-		    	          pChild = new TrieNode(word);
-		    	          //System.out.println("pChild:" + pChild.key);
-		    	          p.childs.put(word, pChild);
-		    	      }
-		    	      
-		    	      //如果派生词不存在，则将派生词加入到派生词字典树
-		    	      if((pChild_derivative = (TrieNode)p_derivative.childs.get(word_derivative)) == null) {
-		    	          pChild_derivative = new TrieNode(word_derivative);
-		    	          //System.out.println("pChild:" + pChild.key);
-		    	          p_derivative.childs.put(word_derivative, pChild_derivative);
-		    	      }
-		    	      
-		    	      p = pChild;
-		    	      p_derivative = pChild_derivative;
+		      if(c == ' '||i == (term.length()-1)||NonChiSplit.isCharSeperator(c)){
+		    	 if(word.length() > 0){
+			    	  //如果c是空格，则已经得到一个word，则按照字典树的方法进行字典树的构造
+			    	  if(c == ' '){
+			    		  word_derivative = getstem.findStem(word);
+			    		  word_derivative = word_derivative.toLowerCase();//将所有大写转换成小写字母
+			    		  TrieNode pChild =  null;
+			    		  TrieNode pChild_derivative = null;
+//			    		  TrieNode pChild = new TrieNode();
+//			    		  TrieNode pChild_derivative = new TrieNode();
+			    		  //如果该word不存在，则将该word加入到字典树中
+			    	      if((pChild = (TrieNode)p.childs.get(word)) == null) {
+			    	          pChild = new TrieNode(word);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p.childs.put(word, pChild);
+			    	      }
+			    	      
+			    	      //如果派生词不存在，则将派生词加入到派生词字典树
+			    	      if((pChild_derivative = (TrieNode)p_derivative.childs.get(word_derivative)) == null) {
+			    	          pChild_derivative = new TrieNode(word_derivative);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p_derivative.childs.put(word_derivative, pChild_derivative);
+			    	      }
+			    	      
+			    	      //指针指向该word
+			    	      p = pChild;
+			    	      p_derivative = pChild_derivative;
+			    	  }
+			    	  //如果是标点符号
+			    	  else if(NonChiSplit.isCharSeperator(c)){
+			    		  word_derivative = getstem.findStem(word);
+			    		  word_derivative = word_derivative.toLowerCase();//将所有大写转换成小写字母
+			    		  TrieNode pChild = null;
+			    		  TrieNode pChild_derivative = null;
+//			    		  TrieNode pChild = new TrieNode();
+//			    		  TrieNode pChild_derivative = new TrieNode();
+			    		  //如果该word不存在，则将该word加入到字典树中
+			    	      if((pChild = (TrieNode)p.childs.get(word)) == null) {
+			    	          pChild = new TrieNode(word);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p.childs.put(word, pChild);
+			    	      }
+			    	      
+			    	      //如果派生词不存在，则将派生词加入到派生词字典树
+			    	      if((pChild_derivative = (TrieNode)p_derivative.childs.get(word_derivative)) == null) {
+			    	          pChild_derivative = new TrieNode(word_derivative);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p_derivative.childs.put(word_derivative, pChild_derivative);
+			    	      }
+			    	      
+			    	      //指针指向该word
+			    	      p = pChild;
+			    	      p_derivative = pChild_derivative;
+			    	  }
+			    	  //如果是该短语的最后一个字母，则是最后一个单词
+			    	  else if(i == (term.length()-1)){
+			    		  if(!NonChiSplit.isCharSeperator(c)){
+			    				word += c;
+			    		  }
+			    		  //word += c; 
+			    		  word_derivative = getstem.findStem(word);
+			    		  word_derivative = word_derivative.toLowerCase();//将所有大写转换成小写字母
+			    		  
+			    		  TrieNode pChild = null;
+			    		  TrieNode pChild_derivative = null;
+//			    		  TrieNode pChild = new TrieNode();
+//			    		  TrieNode pChild_derivative = new TrieNode();
+			    		  
+			    	      if ((pChild = (TrieNode)p.childs.get(word)) == null) {
+			    	          pChild = new TrieNode(word);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p.childs.put(word, pChild);
+			    	      }
+			    	      
+			    	      //如果派生词不存在，则将派生词加入到派生词字典树
+			    	      if((pChild_derivative = (TrieNode)p_derivative.childs.get(word_derivative)) == null) {
+			    	          pChild_derivative = new TrieNode(word_derivative);
+			    	          //System.out.println("pChild:" + pChild.key);
+			    	          p_derivative.childs.put(word_derivative, pChild_derivative);
+			    	      }
+			    	      
+			    	      p = pChild;
+			    	      p_derivative = pChild_derivative;
+			    	  }
 		    	  }
 		    	  //System.out.println(word);
 		    	  word = "";
