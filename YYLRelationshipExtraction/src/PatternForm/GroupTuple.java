@@ -1,84 +1,87 @@
 package PatternForm;
 
+import java.awt.datatransfer.FlavorEvent;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
+import ExtractEntity.TempEntityStore;
+import FeatureExtract.FeatureStore;
 import StaticConstant.AdjustParameter;
 import TupleWeightForm.TuplesStore;
-import TupleWeightForm.WeightTuples;
+
 
 public class GroupTuple {
-	   double threhold = 0.6;//当聚类的时候大于阈值，说明才符合聚类的条件
-       public void GetGroupTuple(String Entity, ArrayList<ArrayList> FiveTupleCollection){
-    	     //String Entity = "";//实体关系对
+	   float threhold = 0.77f;//当聚类的时候大于阈值，说明才符合聚类的条件
+       public void GetGroupTuple(String Entity, ArrayList<FeatureStore> FiveTupleCollection){
     	   
     	     // Iterator it = tuples.weight.entrySet().iterator();
     	     int k = 0;//五元组分组后的索引
   			     
 		     GroupTupleStore group_tuple = new GroupTupleStore();//保存聚好类的五元组
+		     
+		     //System.out.println("GroupTupleClusterSentenceVector:"+group_tuple.ClusterSentenceVector.size());
+		     //System.out.println("GroupTupleTempPattern:"+group_tuple.temp_pattern.size());
+
 		     //对属于同一个实体关系对的五元组进行分组
-		     for(int i = 0; i < FiveTupleCollection.size(); i++){
-		    	 ArrayList<WeightTuples> five_tuple = new ArrayList<>();
-		    	 five_tuple = FiveTupleCollection.get(i);
-		       
-		    	 //如果不存在已经分好类的元组
-		    	 if(group_tuple.weight.size() == 0){
-		    		
-		    		ArrayList<ArrayList> Tuple = new ArrayList<>();
-		    		Tuple.add(five_tuple);
-		    		group_tuple.putWeightTuples(Entity+AdjustParameter.RecognizeFlag+String.valueOf(k),Tuple);
-		    	 }
-		    	 else{
-		    		 String flag = "";
-		    		 double Max = -1;
-		    		 Iterator group = group_tuple.weight.entrySet().iterator();
-		    		 //int t = 0;
-		    		 while(group.hasNext()){
-		    			  
-		    			  Entry group_entry = (Entry)group.next();
-		    			  //分组的索引
-		    			  String group_k = (String)group_entry.getKey();
-		    			  
-		    			  //组内的五元组
-		    			  ArrayList<ArrayList> GroupFiveTupleCollection = new ArrayList<>();
-		  			      GroupFiveTupleCollection = (ArrayList<ArrayList>) group_entry.getValue();
-		  			      double Average = 0.0;
-		  			      MatchTuple match_tuple = new MatchTuple(); 
-		  			      for(int j = 0; j < GroupFiveTupleCollection.size(); j++){
-		  			    	  double match_degree = match_tuple.Match(five_tuple,GroupFiveTupleCollection.get(j));
-		  			    	  if(Double.toString(match_degree).equals("0.0")){
-		  			    		  Average = 0.0;
-		  			    		  //System.out.println("SB");
-		  			    		  break;
-		  			    	  }
-		  			    	  else{
-		  			    		  Average += match_degree;
-		  			    	  }
-		  			      }
-		  			      
-		  			      //System.out.println(Average/GroupFiveTupleCollection.size());
-		  			      
-		  			      if(Average/GroupFiveTupleCollection.size() > threhold){
-		  			    	  if(Average/GroupFiveTupleCollection.size() < Max){
-		  			    		  ;
-		  			    	  } 
-		  			    	  else{
-		  			    		  Max = Average/GroupFiveTupleCollection.size();
-		  			    		  flag = group_k; 
-		  			    	  }
-		  			      }
-		    		 }
-		    		 
-		    		 if(!"".equals(flag) && Max != -1){
-		    			 group_tuple.getweightKey(flag).add(five_tuple);
-		    		 }else{
-		    			 k++;
-		    			 ArrayList<ArrayList> Tuple = new ArrayList<>();
-			    		 Tuple.add(five_tuple);
-			    		 group_tuple.putWeightTuples(Entity+AdjustParameter.MidFactor+String.valueOf(k),Tuple);
-		    		 }
-		    	 }
+		     for(int j = 0; j < FiveTupleCollection.size(); j++){
+		    	 //读取元组向量
+		    	 FeatureStore featureStore = new FeatureStore();
+		    	 featureStore = FiveTupleCollection.get(j);
+		    	 
+		    	 if(group_tuple.ClusterSentenceVector.isEmpty()){//不存在向量分类
+		         	ArrayList<FeatureStore> SenVecList = new ArrayList<>(); 
+		         	SenVecList.add(featureStore);
+		         	group_tuple.ClusterSentenceVector.put(Entity+AdjustParameter.RecognizeFlag+String.valueOf(k),SenVecList);
+		         }else{
+		         	String flag = "";
+		         	float Max = -1f;
+		         	Iterator iterator = group_tuple.ClusterSentenceVector.entrySet().iterator();
+		         	
+		         	while(iterator.hasNext()){//遍历每个类
+		         		Entry group_entry = (Entry)iterator.next();
+		   			    //分组的索引
+		   			    String group_k = (String)group_entry.getKey();
+		   			    
+		   			    //每一组包含：带句子的特征向量
+		   			    ArrayList<FeatureStore> group_senvec = (ArrayList<FeatureStore>)group_entry.getValue();
+		   			    
+		   			    //System.out.println("GroupTupleGroup_K:"+group_k+":"+group_senvec.size());
+		   			    
+		   			    MatchVectorSim match_tuple = new MatchVectorSim();
+		   			    float Average = 0.0f;
+		   			    for(int i = 0; i < group_senvec.size(); i++){
+		   			    	float match_degree = match_tuple.VectorSim(featureStore.vector,group_senvec.get(i).vector);
+		   			    	
+		   			    	//System.out.println("GroupTuplematch_degree:" + match_degree);
+		   			    	
+		   			    	if(match_degree < threhold){//如果新来的句子特征向量和该类中某一个句子特征向量相似度低于阈值
+		   			    		Average = 0.0f;
+		   			    		break;
+		   			    	}else{
+		   			    		Average += match_degree;
+		   			    	}
+		   			    }
+		   			   // System.out.println("GroupTuple平均值:" + Average/(float)group_senvec.size());
+		   			    if(Average/(float)group_senvec.size() > threhold){
+		   			    	if(Average/(float)group_senvec.size() < Max){
+		   			    		;
+		   			    	}else{
+		   			    		 Max = Average/group_senvec.size();
+		  			    		 flag = group_k; 
+		   			    	}
+		   			    }
+		         	}
+		         	
+		         	if(!"".equals(flag) && !String.valueOf(Max).equals(String.valueOf(-1f))){//如果属于已经存在的类
+		         		group_tuple.ClusterSentenceVector.get(flag).add(featureStore);
+		    		}else{//划分到新的类
+		    		    	k ++;//产生新的类
+		    			    ArrayList<FeatureStore> Tuple = new ArrayList<>();
+		 	    		    Tuple.add(featureStore);
+		 	    		    group_tuple.ClusterSentenceVector.put(Entity+AdjustParameter.RecognizeFlag+String.valueOf(k),Tuple);
+		    		}
+		         }
 		    	 
 		    	 
 		     }

@@ -6,7 +6,7 @@ public class NonChiSplit
 
   public static boolean isCharSeperator(char c)
   {
-     return ("¡££¡£¿£º£»¡¢£¬£¨£©¡¶¡·¡¾¡¿{}¡°¡±¡®¡¯!?:;,()<>[]{}\"\n\r\t ".indexOf(c) != -1);
+     return (".¡££¡£¿£º£»¡¢£¬£¨£©¡¶¡·¡¾¡¿{}¡°¡±¡®¡¯!?:;,()<>{}\"\n\r\t ".indexOf(c) != -1);
   }
   public static boolean isSentence(char c){
 	 return("!?.".indexOf(c) != -1);

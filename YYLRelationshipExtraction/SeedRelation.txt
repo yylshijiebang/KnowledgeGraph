@@ -1,11 +1,27 @@
-glaucoma,glaucoma
-pressure,glaucoma
-fatty liver,disease
-glaucoma,ocular hypertension
-glaucoma,pressure
-tension,glaucoma
-pressure,pressure
-disease,disease
-primary open-angle glaucoma,glaucoma
-ocular hypertension,glaucoma
-glaucoma,disease
+influenza,virus
+scars,burns
+wind,fire
+steps,ladder
+sword,blade
+title,book
+body,suitcase
+bottle,water
+sand,hourglass
+drug,tubes
+organisms,areas
+orange slices,meals
+ship,port
+cane,sugar
+boat,harbour
+government,science
+cartomancers,cards
+girl,companion
+clutch,mechanics
+policeman,police force
+leader,organization
+films,mental illness
+medical information,medical procedures
+documents,strategies
+book,author
+software,company
+software,developer

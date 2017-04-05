@@ -1,0 +1,1801 @@
+endophthalmitis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<endophthalmitis>,<and >,<glaucoma>
+{<the,0.004956884561891517>,<occurrence,4.4506258692628656E-5>,<of,0.014186369958275383>,<after,0.0016966369251887438>,<trabeculectomy,6.588881262868908E-4>,<for,0.006193548387096774>,<that,7.146451937594363E-4>,<was,0.0018822345244086565>,<treated,5.334675390035228E-4>,}
+{<endophthalmitis>,<after trabeculectomy for >,<glaucoma>
+Gender,injury
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Gender>,<>,<injury>
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Gender>,<>,<injury>
+pressure,hydrocephalus
+{<patients,0.00852838204633964>,<with,0.01634868809252193>,<normal,0.005389245112308721>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<>,<hydrocephalus>
+{<treatment,0.001090403337969402>,<of,0.014186369958275383>,<normal,0.004055632823365786>,<put,2.013085052843483E-5>,<the,0.004418721690991444>,<retinal,1.7111222949169603E-4>,}
+{<pressure>,<>,<hydrocephalus>
+primary open angle glaucoma,diabetes mellitus
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<and >,<diabetes mellitus>
+{<in,0.009068150208623088>,<patients,0.008428372739916552>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<and >,<diabetes mellitus>
+dehydration,mycoplasma infection
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<dehydration>,<>,<mycoplasma infection>
+peritonitis,meningitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<peritonitis>,<and >,<meningitis>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<peritonitis>,<and >,<meningitis>
+pain,nausea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<pain>,<>,<nausea>
+{<male,5.563282336578582E-6>,<with,0.016255910987482615>,<abdominal,8.344923504867873E-5>,<an,0.0026673376950176147>,<,0.0>,<,0.0>,}
+{<pain>,<>,<nausea>
+sleep apnoea,arrhythmias
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sleep apnoea>,<and >,<arrhythmias>
+{<,0.0>,<,0.0>,<,0.0>,<ventricular,1.6472203157172272E-5>,<and,0.01171615500754907>,<other,2.516356316054353E-4>,<,0.0>,}
+{<sleep apnoea>,<ventricular >,<arrhythmias>
+optic neuropathy,papilledema
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<optic neuropathy>,<>,<papilledema>
+Obstructive Nephropathy,Polycystic kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Obstructive Nephropathy>,<>,<Polycystic kidney disease>
+vitreous hemorrhage,retinal detachment
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<vitreous hemorrhage>,<>,<retinal detachment>
+{<eye,1.891515994436718E-4>,<accompanied,1.1126564673157164E-5>,<by,3.2267037552155775E-4>,<tractional,1.6472203157172272E-5>,<and,0.01171615500754907>,<neovascula,6.0392551585304484E-5>,<,0.0>,}
+{<vitreous hemorrhage>,<tractional >,<retinal detachment>
+diabetic retinopathy,aging
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<aging>
+Cystic fibrosis,abdominal pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Cystic fibrosis>,<and >,<abdominal pain>
+Wilson's disease,Gilbert's syndrome
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Wilson's disease>,<>,<Gilbert's syndrome>
+fever,malaise
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<and >,<malaise>
+alcoholism,Wernicke encephalopathy
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<alcoholism>,<>,<Wernicke encephalopathy>
+retinopathy of prematurity,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinopathy of prematurity>,<and >,<glaucoma>
+Fatigue,pruritus
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Fatigue>,<>,<pruritus>
+optic neuropathy,retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<optic neuropathy>,<and >,<retinopathy>
+{<variant,2.781641168289291E-5>,<of,0.014186369958275383>,<ischemic,2.2253129346314328E-5>,<has,9.389155799588195E-4>,<delayed,6.588881262868909E-5>,<onset,1.5648592999313655E-4>,<compared,0.001144818119423473>,<with,0.021455044612216884>,<and,0.01171615500754907>,<in,0.005405133366884751>,<,0.0>,}
+{<optic neuropathy>,<has delayed onset compared with >,<retinopathy>
+toxoplasmosis,tuberculosis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<toxoplasmosis>,<>,<tuberculosis>
+posterior synechiae,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<posterior synechiae>,<>,<glaucoma>
+{<due,8.901251738525731E-5>,<to,0.0018247566063977747>,<extensive,5.563282336578582E-6>,<and,0.03957446808510638>,<angle,0.001326012354152368>,<closure,7.000686341798216E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<posterior synechiae>,<and angle closure >,<glaucoma>
+Acute pancreatitis,afferent loop syndrome
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute pancreatitis>,<and >,<afferent loop syndrome>
+obesity,cataracts
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<obesity>,<>,<cataracts>
+appendicitis,gastroenteritis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<appendicitis>,<or >,<gastroenteritis>
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<appendicitis>,<or >,<gastroenteritis>
+dengue,fever
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<dengue>,<>,<fever>
+{<,0.0>,<,0.0>,<,0.0>,<was,0.0018822345244086565>,<the,0.004418721690991444>,<most,1.8117765475591344E-4>,}
+{<dengue>,<>,<fever>
+wound,complications
+{<incidence,3.337969401947149E-4>,<of,0.014186369958275383>,<postoperative,3.282336578581363E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<wound>,<>,<complications>
+starvation,stress
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<starvation>,<>,<stress>
+swelling of limbs,erythema
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<swelling of limbs>,<>,<erythema>
+cataracts,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataracts>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,< fibromyalgia,1.1126564673157164E-5>,<and,0.03957446808510638>,<were,0.0031706089582284854>,<more,2.8183190739808757E-4>,<common,1.9124308002013086E-4>,}
+{<cataracts>,<and >,<glaucoma>
+atherosclerosis,related
+{<the,0.004854254356634279>,<treatment,0.0010149089335588688>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<and >,<related>
+{<the,0.004956884561891517>,<treatment,0.001090403337969402>,<of,0.014186369958275383>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<and >,<related>
+Ischemia,hypoxia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Ischemia>,<and >,<hypoxia>
+glaucoma,cataract
+{<,0.0>,< normal,1.2588017780575117E-4>,<tension,0.0014554895558789977>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<cataract>
+hypercholesterolemia,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hypercholesterolemia>,<and >,<primary open-angle glaucoma>
+disease,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and chronic >,<kidney disease>
+signs,Fitz-Hugh-Curtis syndrome
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<signs>,<>,<Fitz-Hugh-Curtis syndrome>
+fever,sepsis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<and >,<sepsis>
+{<,0.0>,< phosphate,5.563282336578582E-6>,<depletion,5.563282336578582E-6>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<sepsis>
+retinal ischemia,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal ischemia>,<and >,<diabetic retinopathy>
+fever,abdominal pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<and >,<abdominal pain>
+{<cause,1.1126564673157164E-4>,<of,0.014186369958275383>,<her,1.1126564673157164E-5>,<and,0.03957446808510638>,<MP,8.236101578586136E-6>,<was,0.0025696636925188745>,<thought,6.588881262868909E-5>,<to,0.010385724090597117>,<be,0.0020178448867536032>,<appendicitis,4.118050789293068E-5>,<which,0.0011942347288949895>,<probably,5.765271105010295E-5>,<developed,2.8826355525051476E-4>,<during,4.612216884008236E-4>,<induction,2.4708304735758405E-5>,<chemotherapy,3.2944406314344544E-5>,<but,0.0012024708304735757>,<did,2.4708304735758405E-4>,<not,0.001326012354152368>,<result,1.647220315717227E-4>,<in,0.02216334934797529>,<typical,1.153054221002059E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<and MP was thought to be appendicitis which probably developed during induction chemotherapy but did not result in typical >,<abdominal pain>
+bladder outlet obstruction,narrow angle
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<bladder outlet obstruction>,<or >,<narrow angle>
+encephalitis,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<encephalitis>,<>,<acute appendicitis>
+Aging,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<Aging>,<and chronic >,<kidney disease>
+diabetic retinopathy,dry eye
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<dry eye>
+{<cognition,5.563282336578582E-6>,<&,1.1126564673157164E-5>,<perception,1.1126564673157164E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<>,<dry eye>
+retinal detachment,endophthalmitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal detachment>,<or >,<endophthalmitis>
+{<,0.0>,<causing,1.1126564673157164E-5>,<tractional,5.563282336578582E-6>,<in,0.02216334934797529>,<cases,9.059711736444749E-4>,<with,0.021455044612216884>,<pre-existing,4.941660947151681E-5>,<pre-retinal,8.236101578586136E-6>,<fibrosis,4.118050789293068E-5>,<and,0.03957446808510638>,<in,0.005405133366884751>,<rare,5.032712632108707E-5>,<cases,3.623553095118269E-4>,}
+{<retinal detachment>,<in cases with pre-existing pre-retinal fibrosis and >,<endophthalmitis>
+symptoms,vomiting
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<symptoms>,<>,<vomiting>
+{<,0.0>,<and,0.005184979137691238>,<gastrointestinal,2.2253129346314328E-5>,<such,5.024021962937542E-4>,<as,0.003648592999313658>,<o,0.0015702063412179165>,<,0.0>,<,0.0>,}
+{<symptoms>,<such as >,<vomiting>
+cataracts,uveitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataracts>,<and >,<uveitis>
+Disease,Nonalcoholic Steatohepatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Disease>,<and >,<Nonalcoholic Steatohepatitis>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.01171615500754907>,<Cirrhosi,1.0065425264217415E-5>,<,0.0>,}
+{<Disease>,<>,<Nonalcoholic Steatohepatitis>
+weight loss,fatigue
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<weight loss>,<and >,<fatigue>
+{<,0.0>,<,0.0>,<,0.0>,<weakening,8.236101578586136E-6>,<are,0.0013286361348766986>,<frequently,4.026170105686966E-5>,<,0.0>,}
+{<weight loss>,<weakening >,<fatigue>
+tenderness,vomiting
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<tenderness>,<and >,<vomiting>
+primary open-angle glaucoma,optic neuritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open-angle glaucoma>,<and >,<optic neuritis>
+acute coronary syndrome,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<acute coronary syndrome>,<chronic >,<kidney disease>
+Gitelman syndrome,Fanconi syndrome
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Gitelman syndrome>,<or >,<Fanconi syndrome>
+migraine,tension
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<migraine>,<and >,<tension>
+{<etiologies,1.1126564673157164E-5>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<migraine>,<>,<tension>
+hearing loss,sleep apnea
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hearing loss>,<and >,<sleep apnea>
+Periumbilical pain,fever
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Periumbilical pain>,<and >,<fever>
+childhood,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<childhood>,<>,<glaucoma>
+Non-alcoholic fatty liver,disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Non-alcoholic fatty liver>,<>,<disease>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.01171615500754907>,<hepatocellular,8.052340211373932E-5>,<carcinoma,5.032712632108707E-5>,}
+{<Non-alcoholic fatty liver>,<>,<disease>
+multiple sclerosis,primary sclerosing cholangitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<multiple sclerosis>,<and >,<primary sclerosing cholangitis>
+melena,hypotension
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<melena>,<and >,<hypotension>
+glaucoma,optic neuropathy
+{<the,0.004956884561891517>,<diagnosis,5.618915159944368E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<optic neuropathy>
+diseases,depressive disorders
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diseases>,<and >,<depressive disorders>
+lethargy,jaundice
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<lethargy>,<and >,<jaundice>
+retinal ischemia,optic neuropathy
+{<,0.0>,<,0.0>,<with,0.016255910987482615>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal ischemia>,<>,<optic neuropathy>
+Acute appendicitis,measles
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute appendicitis>,<and >,<measles>
+liver abscess,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<non-alcoholic,5.024021962937542E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<liver abscess>,<and non-alcoholic >,<fatty liver>
+fever,headache
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<headache>
+palpitations,nausea and vomiting
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<palpitations>,<or >,<nausea and vomiting>
+Cluster headache,narrow angle
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Cluster headache>,<or >,<narrow angle>
+primary open-angle glaucoma,age-related macular degeneration
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open-angle glaucoma>,<>,<age-related macular degeneration>
+{<,0.0>,<follows,3.894297635605007E-5>,<refraction,1.6689847009735745E-5>,<AMD,1.7111222949169603E-4>,<,0.0>,<,0.0>,}
+{<primary open-angle glaucoma>,<>,<age-related macular degeneration>
+dysphagia,symptoms
+{<patients,0.008428372739916552>,<presenting,7.232267037552156E-5>,<with,0.016255910987482615>,<,0.0>,<,0.0>,<,0.0>,}
+{<dysphagia>,<>,<symptoms>
+glaucoma,disease
+{<changes,2.3602533338578345E-4>,<associated,2.832304000629401E-4>,<with,0.01634868809252193>,<within,2.0844761382336806E-4>,<the,0.02435545803620406>,<family,5.924300603400987E-4>,<has,9.873834339001646E-4>,<enabled,1.0970927043335162E-5>,<unaffected,1.0970927043335162E-5>,<members,9.873834339001644E-5>,<to,0.009939659901261656>,<stratify,1.0970927043335162E-5>,<their,6.8019747668678E-4>,<risk,0.0022270981897970377>,<of,0.02510148107515085>,<future,2.3038946791003839E-4>,<and,0.011400922355787406>,<institute,1.5120586678763136E-5>,<closer,1.5120586678763136E-5>,}
+{<glaucoma>,<within the family has enabled unaffected members to stratify their risk of future >,<disease>
+{<the,0.004854254356634279>,<management,4.012430667558318E-4>,<of,0.013799614491955471>,<and,0.03247394404827208>,<to,0.009939659901261656>,<investigate,1.2068019747668677E-4>,<the,0.02435545803620406>,<impact,1.5359297860669227E-4>,<of,0.02510148107515085>,<this,9.434997257268239E-4>,<shift,1.0970927043335162E-5>,<on,0.0025452550740537577>,<the,0.02435545803620406>,<relative,5.48546352166758E-5>,<use,3.6204059243006035E-4>,<of,0.02510148107515085>,<selective,2.194185408667032E-4>,<and,0.03247394404827208>,<nonselective,2.1941854086670324E-5>,<β-blockers,2.1941854086670324E-5>,<in,0.022051563357103676>,<patients,0.01292375205704882>,<with,0.02>,<this,9.434997257268239E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and to investigate the impact of this shift on the relative use of selective and nonselective β-blockers in patients with this >,<disease>
+glaucoma,glaucoma
+{<subjects,4.877856889972858E-4>,<with,0.01634868809252193>,<open-angle,0.009913064002202904>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<or >,<glaucoma>
+{<patients,0.00852838204633964>,<with,0.01634868809252193>,<uncontrolled,1.1014515558003225E-4>,<despite,2.9621503017004936E-4>,<medical,5.375754251234229E-4>,<therapy,8.886450905101481E-4>,<without,0.0017882611080636314>,<previous,1.755348326933626E-4>,<incisional,3.2912781130005486E-5>,<surgery,0.0012701292810161037>,<underwent,3.780146669690784E-4>,<trabeculectomy,1.2096469343010509E-4>,}
+{<glaucoma>,<despite medical therapy without previous incisional >,<glaucoma>
+glaucoma,Parkinson's disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<Parkinson's disease>
+secondary amyloidosis,pyelonephritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<secondary amyloidosis>,<and >,<pyelonephritis>
+gastroenteritis,fractures
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<gastroenteritis>,<>,<fractures>
+Acute appendicitis,dietary fibre intake
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute appendicitis>,<and >,<dietary fibre intake>
+optic neuropathy,diplopia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<optic neuropathy>,<>,<diplopia>
+anterior uveitis,scleritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<anterior uveitis>,<and >,<scleritis>
+diabetic retinopathy,primary open angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<primary open angle glaucoma>
+{<secondary,2.447844228094576E-4>,<to,0.0018247566063977747>,<proliferative,5.006954102920724E-5>,<and,0.03957446808510638>,<12,3.129718599862731E-4>,<subjects,9.059711736444749E-4>,<with,0.021455044612216884>,<POAG,0.00467035732259688>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and 12 subjects with >,<primary open angle glaucoma>
+age-related macular degeneration,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<diabetic retinopathy>
+{<,0.0>,<,0.0>,<with,0.016255910987482615>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<>,<diabetic retinopathy>
+bronchospasm,bradycardia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<bronchospasm>,<and >,<bradycardia>
+disease,diabetes mellitus
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<>,<diabetes mellitus>
+{<for,0.0031933240611961063>,<pretransplant,1.1126564673157164E-5>,<cardiovascular,5.118219749652295E-4>,<an,0.0026673376950176147>,<,0.0>,<,0.0>,}
+{<disease>,<>,<diabetes mellitus>
+disease,anemia
+{<chronic,8.344923504867872E-4>,<obstructive,1.6689847009735745E-5>,<pulmonary,2.781641168289291E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<>,<anemia>
+migraine,headache
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<migraine>,<>,<headache>
+Fatty liver,disease
+{<in,0.009362338224302743>,<pediatric,1.1801266669289172E-4>,<nonalcoholic,0.003485307422996735>,<,0.0>,<,0.0>,<,0.0>,}
+{<Fatty liver>,<>,<disease>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.01171615500754907>,<obesity,3.0196275792652242E-5>,<in,0.005405133366884751>,}
+{<Fatty liver>,<>,<disease>
+primary biliary cirrhosis,steatohepatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<non-alcoholic,5.024021962937542E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary biliary cirrhosis>,<and non-alcoholic >,<steatohepatitis>
+Meckel's diverticulitis,peritonitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Meckel's diverticulitis>,<or >,<peritonitis>
+depression,fatigue
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<>,<fatigue>
+{<,0.0>,<,0.0>,< Although,1.3908205841446454E-4>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<related,1.0065425264217415E-5>,<,0.0>,}
+{<depression>,<and >,<fatigue>
+optic neuritis,retinal detachment
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<optic neuritis>,<and >,<retinal detachment>
+insomnia,nausea
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<insomnia>,<and >,<nausea>
+disease,hepatic encephalopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<hepatic encephalopathy>
+{<encountered,2.781641168289291E-5>,<in,0.009068150208623088>,<liver,1.3351877607788596E-4>,<which,0.0011942347288949895>,<include,2.1413864104323952E-4>,<hepatocerebral,1.0065425264217415E-5>,<degeneration,6.0392551585304484E-5>,<,0.0>,}
+{<disease>,<which include >,<hepatic encephalopathy>
+iridocyclitis,intermediate uveitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<iridocyclitis>,<>,<intermediate uveitis>
+vomiting,abdominal pain
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<and >,<abdominal pain>
+sarcoidosis,toxoplasmosis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<sarcoidosis>,<>,<toxoplasmosis>
+conjunctivitis,episcleritis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<conjunctivitis>,<>,<episcleritis>
+headache,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<open-angle,0.00848318462594372>,<,0.0>,<,0.0>,<,0.0>,}
+{<headache>,<and open-angle >,<glaucoma>
+fever,infection
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<secondary,1.9124308002013086E-4>,<to,0.002415702063412179>,<an,0.0026673376950176147>,}
+{<fever>,<and >,<infection>
+coronary artery disease,atherosclerosis
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<coronary artery disease>,<and >,<atherosclerosis>
+acute appendicitis,peritonitis
+{<,0.0>,<,0.0>,<of,0.013799614491955471>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<acute appendicitis>,<or >,<peritonitis>
+{<before,2.2253129346314328E-5>,<diagnosis,5.618915159944368E-4>,<of,0.014186369958275383>,<exhibited,3.2944406314344544E-5>,<no,6.177076183939602E-4>,<significant,4.4474948524365134E-4>,<difference,3.953328757721345E-4>,<of,0.02437886067261496>,<risk,3.724207347760443E-4>,<when,2.1137393054856566E-4>,<compared,4.1268243583291397E-4>,}
+{<acute appendicitis>,<exhibited no significant difference of >,<peritonitis>
+croup,bronchiolitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<croup>,<and >,<bronchiolitis>
+Open-angle glaucoma,blood groups
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Open-angle glaucoma>,<and >,<blood groups>
+otitis media,bronchitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<otitis media>,<and >,<bronchitis>
+depression,anxiety
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<and >,<anxiety>
+{<with,0.016255910987482615>,<degree,5.006954102920724E-5>,<of,0.014186369958275383>,<but,0.0012024708304735757>,<not,0.001326012354152368>,<with,0.021455044612216884>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<but not with >,<anxiety>
+disease,multiple sclerosis
+{<chronic,8.344923504867872E-4>,<obstructive,1.6689847009735745E-5>,<pulmonary,2.781641168289291E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<>,<multiple sclerosis>
+Acute gastritis,gastroenteritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute gastritis>,<and >,<gastroenteritis>
+fever,vomiting
+{<,0.0>,<,0.0>,<with,0.016255910987482615>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<vomiting>
+fever,anemia
+{<who,1.7802503477051462E-4>,<presented,1.0570236439499306E-4>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<and >,<anemia>
+acne,purpura
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<acne>,<and >,<purpura>
+anemia,peripheral vascular disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<anemia>,<>,<peripheral vascular disease>
+Disease,primary open angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Disease>,<>,<primary open angle glaucoma>
+disease,symptoms
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<>,<symptoms>
+{< As,5.563282336578582E-5>,<alcohol-related,1.1126564673157164E-5>,<liver,1.3351877607788596E-4>,<ArLD,8.236101578586136E-6>,<often,3.3768016472203157E-4>,<develops,4.118050789293068E-5>,<with,0.021455044612216884>,<no,6.177076183939602E-4>,<signs,9.059711736444749E-5>,<or,0.015294440631434453>,<the,0.004418721690991444>,<prevention,7.045797684952189E-5>,<,0.0>,}
+{<disease>,<ArLD often develops with no signs or >,<symptoms>
+primary open-angle glaucoma,glaucoma
+{<,0.0>,< To,3.933755556429724E-5>,<date,5.5072577790016126E-5>,<genes,7.679648930334613E-5>,<and,0.03247394404827208>,<2,8.447613823368075E-4>,<congenital,4.6077893582007677E-4>,<genes,1.3608528010886824E-4>,<have,4.5361760036289413E-4>,<been,4.989793603991836E-4>,}
+{<primary open-angle glaucoma>,<genes and 2 congenital >,<glaucoma>
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<POAG,0.004893033461327482>,<normal,0.0046845858475041136>,<tension,0.003609434997257268>,<NTG,0.00843728736674983>,<,0.0>,<,0.0>,}
+{<primary open-angle glaucoma>,<POAG normal tension >,<glaucoma>
+amyloidosis,gout
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<amyloidosis>,<and >,<gout>
+atherosclerosis,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<>,<fatty liver>
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<diabetes,3.6238846945778997E-4>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<diabetes and >,<fatty liver>
+Hepatitis C,infection
+{<,0.0>,<,0.0>,<,0.0>,<is,0.0030296930045294415>,<a,0.0037141419224962255>,<common,1.9124308002013086E-4>,}
+{<Hepatitis C>,<>,<infection>
+General symptoms,fever
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<General symptoms>,<>,<fever>
+Herpes simplex,uveitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Herpes simplex>,<>,<uveitis>
+diarrhoea,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diarrhoea>,<>,<weight loss>
+disease,brain damage
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<brain damage>
+chemical burn,scleritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<chemical burn>,<and >,<scleritis>
+Posterior Uveitis,Panuveitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Posterior Uveitis>,<or >,<Panuveitis>
+sepsis,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sepsis>,<and >,<acute appendicitis>
+{<patients,0.008428372739916552>,<with,0.016255910987482615>,<HSP,5.563282336578582E-6>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<rash,8.236101578586136E-6>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<urticaria,8.236101578586136E-6>,<simple,5.518188057652711E-4>,<hematuria,8.236101578586136E-6>,<or,0.015294440631434453>,<and,0.01171615500754907>,<healthy,2.1137393054856566E-4>,<children,1.7111222949169603E-4>,}
+{<sepsis>,<patients with rash patients with urticaria simple hematuria or >,<acute appendicitis>
+blinding,diseases
+{<the,0.004956884561891517>,<management,4.78442280945758E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<blinding>,<>,<diseases>
+Iris bleeding,hyphema
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<Iris bleeding>,<>,<hyphema>
+weight loss,kidney disease
+{<the,0.004956884561891517>,<association,2.1140472878998612E-4>,<between,0.0010013908205841447>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<weight loss>,<and >,<kidney disease>
+reflux,symptoms
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<reflux>,<>,<symptoms>
+{<,0.0>,<,0.0>,<and,0.005184979137691238>,<,0.0>,<,0.0>,<,0.0>,}
+{<reflux>,<>,<symptoms>
+disability,death
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disability>,<and >,<death>
+volvulus,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<volvulus>,<and >,<appendicitis>
+Measles,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Measles>,<and >,<acute appendicitis>
+Diabetes mellitus,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Diabetes mellitus>,<and >,<primary open-angle glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<as,0.003648592999313658>,<a,0.008524365133836649>,<risk,0.0022814001372683597>,<factor,0.0012354152367879203>,<for,0.006193548387096774>,<a,0.0037141419224962255>,<meta-analysis,1.0065425264217414E-4>,<,0.0>,}
+{<Diabetes mellitus>,<as a risk factor for >,<primary open-angle glaucoma>
+Acute appendicitis,intussusception
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute appendicitis>,<>,<intussusception>
+abdominal pain,leukocytosis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<>,<leukocytosis>
+anaemia,acute intestinal obstruction
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<anaemia>,<and >,<acute intestinal obstruction>
+Meckel's diverticulum,intussusception
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Meckel's diverticulum>,<and >,<intussusception>
+{<,0.0>,<caused,4.4506258692628656E-5>,<by,3.2267037552155775E-4>,<include,2.1413864104323952E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<Meckel's diverticulum>,<include >,<intussusception>
+anterior uveitis,optic neuritis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<anterior uveitis>,<>,<optic neuritis>
+childhood asthma,tuberculosis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<childhood asthma>,<or >,<tuberculosis>
+Diabetic maculopathy,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Diabetic maculopathy>,<and >,<glaucoma>
+infection,sepsis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<infection>,<>,<sepsis>
+{<,0.0>,<diffuse,5.563282336578582E-6>,<of,0.014186369958275383>,<preoperative,1.2354152367879202E-4>,<serum,6.588881262868909E-5>,<levels,2.717913520933425E-4>,<of,0.02437886067261496>,<albumin,8.236101578586136E-6>,<cholesterol,2.4708304735758405E-5>,<and,0.03957446808510638>,<hemoglobin,8.236101578586136E-6>,<preoperative,1.2354152367879202E-4>,<total,9.059711736444749E-5>,<lymphocyte,8.236101578586136E-6>,<count,2.4708304735758405E-5>,<amount,3.2944406314344544E-5>,<of,0.02437886067261496>,<intraoperative,1.6472203157172272E-5>,<blood,0.0010212765957446808>,<loss,7.989018531228551E-4>,<presence,1.9766643788606724E-4>,<of,0.02437886067261496>,<preoperative,1.2354152367879202E-4>,<organ,8.236101578586136E-6>,<impairment,1.6472203157172272E-5>,<the,0.022509265614275912>,<APACHE,8.236101578586136E-6>,<II,7.412491420727523E-5>,<score,9.059711736444749E-5>,<the,0.022509265614275912>,<score,3.0196275792652242E-5>,<of,0.0013286361348766986>,<Elebute,1.0065425264217415E-5>,}
+{<infection>,<preoperative serum levels of albumin cholesterol and hemoglobin preoperative total lymphocyte count amount of intraoperative blood loss presence of preoperative organ impairment the APACHE II score the >,<sepsis>
+Dysphagia,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<the,0.004418721690991444>,<most,1.8117765475591344E-4>,}
+{<Dysphagia>,<and >,<weight loss>
+Intussusception,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Intussusception>,<and >,<acute appendicitis>
+Central obesity,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<nonalcoholic,7.165408373369938E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<Central obesity>,<and nonalcoholic >,<fatty liver>
+Pseudophakia,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Pseudophakia>,<and >,<glaucoma>
+Measles,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Measles>,<>,<appendicitis>
+glaucoma,age-related macular degeneration
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<age-related macular degeneration>
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<an,0.0026673376950176147>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<age-related macular degeneration>
+portal vein obstruction,portal hypertension
+{<risk,6.608709334801936E-4>,<of,0.013799614491955471>,<developing,8.654262224145392E-5>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<portal vein obstruction>,<and >,<portal hypertension>
+{<risk,6.11961057023644E-4>,<of,0.014186369958275383>,<developing,1.0570236439499306E-4>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<portal vein obstruction>,<and >,<portal hypertension>
+Gender,ethnic background
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Gender>,<>,<ethnic background>
+dry eyes,pterygia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<dry eyes>,<and >,<pterygia>
+osteoporosis,disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and cardiovascular >,<disease>
+{<risk,6.11961057023644E-4>,<factors,2.670375521557719E-4>,<for,0.0031933240611961063>,<and,0.03957446808510638>,<cardiovascular,0.0010212765957446808>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and cardiovascular >,<disease>
+vomiting,diarrhoea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<>,<diarrhoea>
+Sudden cardiac death,diabetes mellitus
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Sudden cardiac death>,<and >,<diabetes mellitus>
+Glaucomatocyclitic crisis,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucomatocyclitic crisis>,<and >,<primary open-angle glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<showed,2.964996568291009E-4>,<a,0.008524365133836649>,<more,0.001210706932052162>,<significant,4.4474948524365134E-4>,<hypotensive,8.236101578586135E-5>,<response,2.306108442004118E-4>,<to,0.010385724090597117>,<1%,4.118050789293068E-5>,<apraclonidine,3.2944406314344544E-5>,<than,0.0017954701441317777>,<24,1.0065425264217414E-4>,<,0.0>,<,0.0>,}
+{<Glaucomatocyclitic crisis>,<showed a more significant hypotensive response to 1% apraclonidine than >,<primary open-angle glaucoma>
+Age-related macular degeneration,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Age-related macular degeneration>,<>,<diabetic retinopathy>
+ocular ischemic syndrome,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular ischemic syndrome>,<or >,<glaucoma>
+granulomatosis,migraine
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<granulomatosis>,<>,<migraine>
+cough,sign
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<cough>,<>,<sign>
+{<in,0.009068150208623088>,<the,0.004956884561891517>,<road,5.563282336578582E-6>,<right,6.0392551585304484E-5>,<iliac,1.0065425264217415E-5>,<,0.0>,}
+{<cough>,<>,<sign>
+Recurrent abdominal pain,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<Recurrent abdominal pain>,<and chronic >,<appendicitis>
+migraine,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<migraine>,<and >,<weight loss>
+fatigue,malaise
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<fatigue>,<>,<malaise>
+steatohepatitis,fatty liver
+{<,0.0>,<,,4.720506667715668E-5>,<non-alcoholic,0.0036741276897053615>,<,0.0>,<,0.0>,<,0.0>,}
+{<steatohepatitis>,<>,<fatty liver>
+{<hallmarks,5.563282336578582E-6>,<of,0.014186369958275383>,<nonalcoholic,0.0025757997218358833>,<NASH,5.765271105010295E-5>,<the,0.022509265614275912>,<progressive,3.788606726149623E-4>,<form,3.953328757721345E-4>,<of,0.02437886067261496>,<nonalcoholic,7.165408373369938E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<steatohepatitis>,<NASH the progressive form of nonalcoholic >,<fatty liver>
+coronary artery disease,stable angina
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<coronary artery disease>,<>,<stable angina>
+Ileocolic intussusceptions,intussusceptions
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Ileocolic intussusceptions>,<and >,<intussusceptions>
+neutropenia,thrombocytopenia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<neutropenia>,<and >,<thrombocytopenia>
+{<after,2.781641168289291E-4>,<resolution,5.563282336578582E-6>,<of,0.014186369958275383>,<and,0.03957446808510638>,<and,0.01171615500754907>,<correction,2.013085052843483E-5>,<of,0.0013286361348766986>,}
+{<neutropenia>,<and >,<thrombocytopenia>
+age-related macular degeneration,retinitis pigmentosa
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<>,<retinitis pigmentosa>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<major,1.0065425264217414E-4>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<retinitis pigmentosa>
+acute abdominal pain,anaemia
+{<who,1.7802503477051462E-4>,<presented,1.0570236439499306E-4>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<acute abdominal pain>,<and >,<anaemia>
+appendicitis,ischemia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<appendicitis>,<and >,<ischemia>
+dry mouth,nausea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<dry mouth>,<>,<nausea>
+{<,0.0>,<,0.0>,< including,7.232267037552156E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<dry mouth>,<>,<nausea>
+hypercholesterolemia,migraine
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<hypercholesterolemia>,<>,<migraine>
+arthritis,sepsis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<arthritis>,<and >,<sepsis>
+{<,0.0>,<,0.0>,< pseudoappendicitis,5.563282336578582E-6>,<and,0.01171615500754907>,<focal,2.013085052843483E-5>,<,0.0>,}
+{<arthritis>,<>,<sepsis>
+fatigue,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<anorexia,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<fatigue>,<anorexia and >,<weight loss>
+depression,insomnia
+{<the,0.004956884561891517>,<management,4.78442280945758E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<>,<insomnia>
+scleritis,choroiditis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<scleritis>,<>,<choroiditis>
+angle recession,uveitis
+{<in,0.009068150208623088>,<eyes,0.0017635605006954104>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<angle recession>,<and >,<uveitis>
+Wernicke encephalopathy,alcoholic cerebellar degeneration
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Wernicke encephalopathy>,<>,<alcoholic cerebellar degeneration>
+flushing,diarrhea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<flushing>,<>,<diarrhea>
+pruritus,nausea
+{<,0.0>,<,0.0>,<,0.0>,<anorexia,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<pruritus>,<anorexia and >,<nausea>
+headache,infection
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<headache>,<>,<infection>
+female,gender
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<female>,<>,<gender>
+{<,0.0>,<,0.0>,< and,2.2809457579972184E-4>,<are,0.0013286361348766986>,<the,0.004418721690991444>,<main,2.013085052843483E-5>,}
+{<female>,<>,<gender>
+neuropathy,retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<neuropathy>,<and >,<retinopathy>
+{<with,0.016255910987482615>,<both,1.6133518776077888E-4>,<microvascular,1.1126564673157164E-5>,<nephropathy,6.588881262868909E-5>,<and,0.03957446808510638>,<and,0.01171615500754907>,<macrovascula,3.0196275792652242E-5>,<,0.0>,}
+{<neuropathy>,<nephropathy and >,<retinopathy>
+endocarditis,eye infections
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<endocarditis>,<and >,<eye infections>
+anemia,hypercalcemia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<anemia>,<and >,<hypercalcemia>
+Flank pain,nausea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Flank pain>,<>,<nausea>
+abdominal pain,constipation
+{<who,1.7802503477051462E-4>,<presented,1.0570236439499306E-4>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<and >,<constipation>
+pneumonia,tonsillitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<pneumonia>,<>,<tonsillitis>
+acute appendicitis,cholecystitis
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<acute appendicitis>,<and >,<cholecystitis>
+disease,atherosclerosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<atherosclerosis>
+tension,glaucoma
+{<patients,0.00852838204633964>,<with,0.01634868809252193>,<normal,0.005389245112308721>,<,0.0>,<,0.0>,<,0.0>,}
+{<tension>,<>,<glaucoma>
+{<patients,0.00852838204633964>,<with,0.01634868809252193>,<normal,0.005389245112308721>,<NTG,0.00843728736674983>,<,0.0>,<,0.0>,}
+{<tension>,<>,<glaucoma>
+arrhythmias,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<arrhythmias>,<and >,<glaucoma>
+ocular hypertension,cataract
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<cataract>
+{<Reasons,5.563282336578582E-6>,<for,0.0031933240611961063>,<early,3.783031988873436E-4>,<after,0.0016966369251887438>,<uneventful,4.118050789293068E-5>,<surgery,0.002315047810770005>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<after uneventful >,<cataract>
+diabetic retinopathy,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<primary open-angle glaucoma>
+{<age-related,6.675938803894298E-5>,<macular,3.337969401947149E-5>,<degeneration,7.232267037552156E-5>,<and,0.01171615500754907>,<othe,6.0392551585304484E-5>,<,0.0>,}
+{<diabetic retinopathy>,<>,<primary open-angle glaucoma>
+dermatitis,hypophysitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<dermatitis>,<>,<hypophysitis>
+pneumonia,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<pneumonia>,<>,<appendicitis>
+{<,0.0>,<,0.0>,<,0.0>,<skin,2.013085052843483E-5>,<infections,1.0065425264217415E-5>,<,0.0>,}
+{<pneumonia>,<>,<appendicitis>
+headache,nausea
+{<effects,1.4464534075104313E-4>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<headache>,<>,<nausea>
+bronchiolitis,dengue
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<bronchiolitis>,<>,<dengue>
+osteoporosis,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<>,<weight loss>
+cataract,posterior synechiae
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<posterior synechiae>
+thyrotoxicosis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<thyrotoxicosis>,<and >,<glaucoma>
+related,diseases
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<>,<diseases>
+{<of,0.014186369958275383>,<NAFLD,3.337969401947149E-5>,<and,0.005184979137691238>,<metabolic,2.553191489361702E-4>,<is,0.0030296930045294415>,<genetically,2.013085052843483E-5>,<influenced,3.0196275792652242E-5>,}
+{<related>,<metabolic >,<diseases>
+acute cholecystitis,pancreatitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<acute cholecystitis>,<>,<pancreatitis>
+central retinal vein occlusion,retinal detachment
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<central retinal vein occlusion>,<>,<retinal detachment>
+pressure,primary open-angle glaucoma
+{<to,0.0016521773337004838>,<reduce,1.5735022225718895E-4>,<intraocular,0.013657999291924001>,<in,0.022051563357103676>,<patients,0.01292375205704882>,<with,0.02>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<in patients with >,<primary open-angle glaucoma>
+{<to,0.0018247566063977747>,<lower,3.504867872044506E-4>,<intraocular,0.011354659248956886>,<IOP,0.008409059711736444>,<in,0.02216334934797529>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<POAG,0.00467035732259688>,<,0.0>,<,0.0>,}
+{<pressure>,<IOP in patients with >,<primary open-angle glaucoma>
+balanitis,vulvovaginitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<balanitis>,<>,<vulvovaginitis>
+diabetes mellitus,kidney disease
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<chronic,0.0019089413055403182>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetes mellitus>,<and chronic >,<kidney disease>
+{<,0.0>,<resistance,9.45757997218359E-5>,<type,1.223922114047288E-4>,<T2DM,6.588881262868909E-5>,<chronic,0.0025202470830473574>,<CKD,1.6104680422747864E-4>,<,0.0>,<,0.0>,}
+{<diabetes mellitus>,<T2DM chronic >,<kidney disease>
+ulcers,fistulas
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ulcers>,<or >,<fistulas>
+heart failure,coronary artery disease
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<heart failure>,<and >,<coronary artery disease>
+{<risk,6.11961057023644E-4>,<factors,2.670375521557719E-4>,<for,0.0031933240611961063>,<HF,8.236101578586136E-6>,<including,0.001095401509951956>,<hypertension,5.106382978723404E-4>,<diabetes,3.6238846945778997E-4>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<heart failure>,<HF including hypertension diabetes and >,<coronary artery disease>
+diabetes mellitus,porphyrias
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetes mellitus>,<>,<porphyrias>
+Inhaled steroid use,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Inhaled steroid use>,<and >,<glaucoma>
+rigors,pyrexia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<rigors>,<>,<pyrexia>
+nausea,swelling of limbs
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<nausea>,<>,<swelling of limbs>
+sequelae,strabismus
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sequelae>,<and >,<strabismus>
+ocular hypertension,primary open angle glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<primary open angle glaucoma>
+{<,0.0>,<,0.0>,<from,7.566063977746872E-4>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<primary open angle glaucoma>
+abdominal pain,anemia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<and >,<anemia>
+primary biliary cirrhosis,primary sclerosing cholangitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary biliary cirrhosis>,<>,<primary sclerosing cholangitis>
+{<,0.0>,<,0.0>,<,0.0>,<PBC,8.236101578586136E-6>,<PSC,1.0065425264217415E-5>,<or,0.002073477604428787>,<post,2.013085052843483E-5>,}
+{<primary biliary cirrhosis>,<PBC >,<primary sclerosing cholangitis>
+Tuberculous,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Tuberculous>,<>,<appendicitis>
+heart failure,peripheral vascular disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<heart failure>,<and >,<peripheral vascular disease>
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015294440631434453>,<in,0.005405133366884751>,<an,0.0026673376950176147>,<,0.0>,}
+{<heart failure>,<or >,<peripheral vascular disease>
+Breast feeding,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Breast feeding>,<and >,<acute appendicitis>
+{<,0.0>,<,0.0>,<br,2.781641168289291E-5>,<stimulates,8.236101578586136E-6>,<a,0.008524365133836649>,<more,0.001210706932052162>,<tolerant,8.236101578586136E-6>,<lymphoid,8.236101578586136E-6>,<tissue,1.0706932052161976E-4>,<at,0.001326012354152368>,<the,0.022509265614275912>,<base,3.2944406314344544E-5>,<of,0.02437886067261496>,<the,0.022509265614275912>,<appendix,2.4708304735758405E-5>,<and,0.03957446808510638>,<this,8.153740562800275E-4>,<could,3.129718599862731E-4>,<provide,1.153054221002059E-4>,<protection,8.236101578586136E-6>,<against,9.883321894303362E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<Breast feeding>,<stimulates a more tolerant lymphoid tissue at the base of the appendix and this could provide protection against >,<acute appendicitis>
+diarrhea,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diarrhea>,<and >,<weight loss>
+{<remission,5.563282336578582E-6>,<of,0.014186369958275383>,<the,0.004956884561891517>,<the,0.022509265614275912>,<was,0.0018822345244086565>,<recovered,1.0065425264217415E-5>,<within,1.2078510317060897E-4>,}
+{<diarrhea>,<the >,<weight loss>
+hemianopia,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hemianopia>,<and >,<diabetic retinopathy>
+osteoporosis,muscle wasting
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and >,<muscle wasting>
+Gaucher's disease,Wilson's disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Gaucher's disease>,<>,<Wilson's disease>
+Optic disc hemorrhages,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Optic disc hemorrhages>,<and >,<glaucoma>
+disease,disease
+{<,0.0>,<,0.0>,<,0.0>,<NAFLD,6.472846955567745E-4>,<is,0.00643993417443774>,<the,0.02435545803620406>,<most,0.0010093252879868348>,<common,7.240811848601207E-4>,<chronic,0.0019089413055403182>,<liver,5.156335710367525E-4>,<disease,3.7301151947339553E-4>,<worldwide,6.582556226001097E-5>,<and,0.03247394404827208>,<it,7.131102578167855E-4>,<has,9.873834339001646E-4>,<overlapping,1.0970927043335162E-5>,<pathogenesis,4.0592430060340095E-4>,<with,0.02>,<diabetes,1.8650575973669776E-4>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<NAFLD is the most common chronic liver disease worldwide and it has overlapping pathogenesis with diabetes and cardiovascular >,<disease>
+{<,0.0>,<,0.0>,<,0.0>,<NAFLD,6.472846955567745E-4>,<is,0.00643993417443774>,<the,0.02435545803620406>,<most,0.0010093252879868348>,<common,7.240811848601207E-4>,<cause,3.181568842567197E-4>,<of,0.02510148107515085>,<chronic,0.0019089413055403182>,<liver,5.156335710367525E-4>,<disease,3.7301151947339553E-4>,<in,0.022051563357103676>,<developed,2.633022490400439E-4>,<countries,3.2912781130005486E-5>,<and,0.03247394404827208>,<it,7.131102578167855E-4>,<is,0.00643993417443774>,<now,8.77674163466813E-5>,<considered,3.510696653867252E-4>,<a,0.008392759188151399>,<risk,0.0022270981897970377>,<factor,0.0011629182665935272>,<for,0.006121777290181021>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<NAFLD is the most common cause of chronic liver disease in developed countries and it is now considered a risk factor for cardiovascular >,<disease>
+related,blindness
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<>,<blindness>
+bleeding,hemolysis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<bleeding>,<>,<hemolysis>
+cataract,arthritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<arthritis>
+vomiting,constipation
+{<,0.0>,<,0.0>,<,0.0>,<anorexia,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<anorexia and >,<constipation>
+narrow angle,glaucoma
+{<,0.0>,<,0.0>,<or,8.12239221140473E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<narrow angle>,<>,<glaucoma>
+convulsion,coma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<convulsion>,<and >,<coma>
+primary open angle glaucoma,cataract
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<and >,<cataract>
+{<donors,2.2253129346314328E-5>,<diagnosed,6.230876216968012E-4>,<with,0.016255910987482615>,<POAG,0.005460535346602608>,<and,0.03957446808510638>,<five,9.059711736444749E-5>,<age-,2.4708304735758405E-5>,<and,0.03957446808510638>,<sex-matched,2.4708304735758405E-5>,<controls,2.1413864104323952E-4>,<undergoing,1.0706932052161976E-4>,<surgery,0.002315047810770005>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<POAG and five age- and sex-matched controls undergoing >,<cataract>
+Age,female
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Age>,<>,<female>
+hyperlipidemia,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<hyperlipidemia>,<>,<fatty liver>
+{<impaired,1.1126564673157164E-5>,<Wnt-LRP6,5.563282336578582E-6>,<signaling,5.563282336578582E-6>,<non-alcoholic,5.024021962937542E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<hyperlipidemia>,<non-alcoholic >,<fatty liver>
+epilepsy,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<epilepsy>,<and >,<glaucoma>
+fatty liver,diseases
+{<,0.0>,<and,0.0049329294677628735>,<nonalcoholic,0.003485307422996735>,<,0.0>,<,0.0>,<,0.0>,}
+{<fatty liver>,<>,<diseases>
+{<the,0.004956884561891517>,<pathophysiology,9.45757997218359E-5>,<of,0.014186369958275383>,<characterized,6.0392551585304484E-5>,<by,7.951685958731757E-4>,<excessive,1.0065425264217415E-5>,}
+{<fatty liver>,<>,<diseases>
+ocular hypertension,glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<glaucoma>
+{<had,8.890287557531175E-4>,<high,7.238110223830691E-4>,<IOP,1.0227764446717281E-4>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<glaucoma>
+Snoring,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Snoring>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<was,0.0025696636925188745>,<observed,1.5648592999313655E-4>,<in,0.02216334934797529>,<all,3.953328757721345E-4>,<cases,3.623553095118269E-4>,<with,0.003120281831907398>,<obstructiv,6.0392551585304484E-5>,}
+{<Snoring>,<was observed in all >,<glaucoma>
+glaucoma,cataracts
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<cataracts>
+{<including,5.45201668984701E-4>,<retina,2.2253129346314328E-5>,<degenerations,5.563282336578582E-6>,<and,0.03957446808510638>,<and,0.01171615500754907>,<contains,1.0065425264217415E-5>,<,0.0>,}
+{<glaucoma>,<and >,<cataracts>
+glaucoma,blindness
+{<the,0.004854254356634279>,<prevalence,3.69773022304394E-4>,<of,0.013799614491955471>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<blindness>
+{<of,0.014186369958275383>,<normal,0.004055632823365786>,<tension,0.0012294853963838665>,<a,0.008524365133836649>,<common,8.647906657515443E-4>,<cause,5.271105010295127E-4>,<of,0.02437886067261496>,<vision,1.647220315717227E-4>,<loss,7.989018531228551E-4>,<and,0.03957446808510638>,<that,7.146451937594363E-4>,<occurs,1.1071967790639157E-4>,<without,4.0261701056869655E-4>,}
+{<glaucoma>,<a common cause of vision loss and >,<blindness>
+infection,anaphylaxis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<infection>,<>,<anaphylaxis>
+bronchitis,asthma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<bronchitis>,<>,<asthma>
+episcleritis,scleritis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<episcleritis>,<>,<scleritis>
+{<,0.0>,<,0.0>,<,0.0>,<limbal,1.0065425264217415E-5>,<nodules,1.0065425264217415E-5>,<,0.0>,}
+{<episcleritis>,<>,<scleritis>
+diabetes mellitus,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<non-alcoholic,5.024021962937542E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetes mellitus>,<and non-alcoholic >,<fatty liver>
+retinopathy,neuropathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinopathy>,<and >,<neuropathy>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.01171615500754907>,<accelerated,1.0065425264217415E-5>,<cardiovascula,1.4091595369904378E-4>,}
+{<retinopathy>,<>,<neuropathy>
+nasopharyngitis,cough
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<nasopharyngitis>,<and >,<cough>
+Diabetes mellitus,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Diabetes mellitus>,<and >,<glaucoma>
+{<ahead,5.563282336578582E-6>,<of,0.014186369958275383>,<print,2.2253129346314328E-5>,<as,0.003648592999313658>,<a,0.008524365133836649>,<risk,0.0022814001372683597>,<factor,0.0012354152367879203>,<for,0.006193548387096774>,<outcome,2.013085052843483E-5>,<in,0.005405133366884751>,<Korea,1.0065425264217415E-5>,}
+{<Diabetes mellitus>,<as a risk factor for >,<glaucoma>
+diverticulitis,cholecystitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<diverticulitis>,<or >,<cholecystitis>
+age-related macular degeneration,high altitude retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<or >,<high altitude retinopathy>
+iritis,iridocyclitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<iritis>,<>,<iridocyclitis>
+Acute perforated appendicitis,wound
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Acute perforated appendicitis>,<>,<wound>
+primary open angle glaucoma,ocular hypertension
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<or >,<ocular hypertension>
+{<medical,1.1682892906815023E-4>,<treatment,0.001090403337969402>,<for,0.0031933240611961063>,<and,0.03957446808510638>,<a,0.0037141419224962255>,<network,3.0196275792652242E-5>,<,0.0>,}
+{<primary open angle glaucoma>,<and >,<ocular hypertension>
+diabetic retinopathy,central retinal vein occlusion
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<>,<central retinal vein occlusion>
+{<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<proliferative,5.006954102920724E-5>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<or >,<central retinal vein occlusion>
+Osteogenesis imperfecta,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Osteogenesis imperfecta>,<and >,<glaucoma>
+nausea,vomiting
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<nausea>,<or >,<vomiting>
+peripheral ulcerative keratitis,episcleritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<peripheral ulcerative keratitis>,<and >,<episcleritis>
+swelling,pain
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<swelling>,<>,<pain>
+diabetic retinopathy,glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<an,0.0026673376950176147>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<>,<glaucoma>
+diarrhea,nausea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diarrhea>,<>,<nausea>
+intussusception,ureteritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<intussusception>,<and >,<ureteritis>
+glaucoma,osteoporosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<osteoporosis>
+{<of,0.014186369958275383>,<developing,1.0570236439499306E-4>,<diabetes,1.835883171070932E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<osteoporosis>
+pressure,glaucoma
+{<high,7.238110223830691E-4>,<preoperative,1.2588017780575117E-4>,<intraocular,0.013657999291924001>,<were,0.002512342292923752>,<the,0.02435545803620406>,<best,6.582556226001097E-5>,<predictors,6.582556226001097E-5>,<for,0.006121777290181021>,<the,0.02435545803620406>,<need,2.852441031267142E-4>,<for,0.006121777290181021>,<reoperation,4.388370817334065E-5>,<for,0.006121777290181021>,<after,7.7114992061692E-4>,<combined,1.0584410675134196E-4>,<surgery,0.0012701292810161037>,}
+{<pressure>,<were the best predictors for the need for reoperation for >,<glaucoma>
+{<to,0.0016521773337004838>,<reduce,1.5735022225718895E-4>,<intraocular,0.013657999291924001>,<IOP,0.008853538123971475>,<in,0.022051563357103676>,<patients,0.01292375205704882>,<with,0.02>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<IOP in patients with >,<glaucoma>
+Disease,Atherosclerosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Disease>,<and >,<Atherosclerosis>
+disease,coronary artery disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<coronary artery disease>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<a,0.0037141419224962255>,<concise,1.0065425264217415E-5>,<,0.0>,}
+{<disease>,<and >,<coronary artery disease>
+left ventricular hypertrophy,heart failure
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<left ventricular hypertrophy>,<and >,<heart failure>
+{<,0.0>,<valvular,5.563282336578582E-6>,<calcification,1.1126564673157164E-5>,<chronic,1.6104680422747864E-4>,<obstructive,2.013085052843483E-5>,<,0.0>,}
+{<left ventricular hypertrophy>,<>,<heart failure>
+primary open angle glaucoma,glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<normal,0.0046845858475041136>,<tension,0.003609434997257268>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<and normal tension >,<glaucoma>
+{<are,1.835883171070932E-4>,<associated,3.504867872044506E-4>,<to,0.0018247566063977747>,<POAG,0.005460535346602608>,<normal,0.00449691146190803>,<tension,0.0035579958819492107>,<and,0.01171615500754907>,<pseudoexfoliatio,2.1137393054856566E-4>,<,0.0>,}
+{<primary open angle glaucoma>,<POAG normal tension >,<glaucoma>
+duplication,cyst
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<duplication>,<>,<cyst>
+{<,0.0>,<,0.0>,<enteric,5.563282336578582E-6>,<n,6.039255158530448E-4>,<=,7.851031706089583E-4>,<,0.0>,}
+{<duplication>,<>,<cyst>
+fever,dehydration
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<dehydration>
+{<of,0.014186369958275383>,<abdominal,8.344923504867873E-5>,<guarding,5.563282336578582E-6>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<dehydration>
+obesity,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<non-alcoholic,5.024021962937542E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<obesity>,<non-alcoholic >,<fatty liver>
+tonsillitis,conjunctivitis
+{<the,0.004854254356634279>,<prevalence,3.69773022304394E-4>,<of,0.013799614491955471>,<,0.0>,<,0.0>,<,0.0>,}
+{<tonsillitis>,<>,<conjunctivitis>
+{<the,0.004956884561891517>,<prevalence,4.172461752433936E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<tonsillitis>,<>,<conjunctivitis>
+abscess,wound
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<abscess>,<>,<wound>
+{<were,5.841446453407511E-4>,<rates,1.2795549374130738E-4>,<of,0.014186369958275383>,<formation,1.5648592999313655E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<abscess>,<formation >,<wound>
+Cataract,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Cataract>,<>,<glaucoma>
+{<,0.0>,<,0.0>,<BACKGROUND,1.835883171070932E-4>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<leading,1.0065425264217414E-4>,<causes,4.026170105686966E-5>,}
+{<Cataract>,<and >,<glaucoma>
+rheumatic heart disease,tuberculous
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<rheumatic heart disease>,<and >,<tuberculous>
+red eye,headache
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<red eye>,<and >,<headache>
+primary open-angle glaucoma,ocular hypertension
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open-angle glaucoma>,<or >,<ocular hypertension>
+{<,0.0>,<women,2.781641168289291E-5>,<with,0.016255910987482615>,<or,0.015294440631434453>,<who,0.0013185707096124812>,<had,8.454957221942627E-4>,<ripasudil,2.013085052843483E-5>,}
+{<primary open-angle glaucoma>,<or >,<ocular hypertension>
+infections,deaths
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<infections>,<or >,<deaths>
+diabetic retinopathy,retinopathy of prematurity
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<retinopathy of prematurity>
+{<disorders,5.006954102920724E-5>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<>,<retinopathy of prematurity>
+transient,ileus
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<transient>,<>,<ileus>
+{<,0.0>,<,0.0>,<,0.0>,<EL,2.013085052843483E-5>,<,0.0>,<,0.0>,}
+{<transient>,<>,<ileus>
+malaise,leukocytosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<malaise>,<and >,<leukocytosis>
+sepsis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sepsis>,<and >,<glaucoma>
+vomiting,altered mental status
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<>,<altered mental status>
+dry mouth,glaucoma
+{<the,0.004854254356634279>,<treatment,0.0010149089335588688>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<dry mouth>,<and >,<glaucoma>
+vomiting,chills
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<and >,<chills>
+keratitis,iridocyclitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<keratitis>,<>,<iridocyclitis>
+Appendicitis,peritonitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Appendicitis>,<or >,<peritonitis>
+{<,0.0>,<,0.0>,<it,1.0570236439499306E-4>,<is,0.006613589567604667>,<a,0.008524365133836649>,<frequent,1.9766643788606724E-4>,<clinical,6.259437199725462E-4>,<condition,2.4708304735758405E-4>,<in,0.02216334934797529>,<normal,0.00449691146190803>,<children,9.883321894303362E-5>,<that,0.0027755662319835276>,<may,0.001581331503088538>,<be,0.0020178448867536032>,<complicated,4.118050789293068E-5>,<by,0.002199039121482498>,<community-acquired,1.6472203157172272E-5>,<secondary,5.024021962937542E-4>,<CASP,1.0065425264217415E-5>,<,0.0>,<,0.0>,}
+{<Appendicitis>,<is a frequent clinical condition in normal children that may be complicated by community-acquired secondary >,<peritonitis>
+Myopia,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Myopia>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<advanced-stage,3.2944406314344544E-5>,<open-angle,0.00848318462594372>,<,0.0>,<,0.0>,<,0.0>,}
+{<Myopia>,<and advanced-stage open-angle >,<glaucoma>
+Splenic infarction,malaria
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Splenic infarction>,<and >,<malaria>
+glaucoma,primary open angle glaucoma
+{<,0.0>,<syndrome,2.6147426981919334E-4>,<pseudoexfoliation,3.5605006954102925E-4>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<primary open angle glaucoma>
+migraine,myopia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<migraine>,<and >,<myopia>
+{<,0.0>,<,0.0>,< and,2.2809457579972184E-4>,<eye,6.506520247083047E-4>,<injury,4.941660947151681E-5>,<and,0.01171615500754907>,<long-term,1.0065425264217414E-4>,<use,1.4091595369904378E-4>,}
+{<migraine>,<eye injury >,<myopia>
+Primary hyperparathyroidism,vitamin D deficiency
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Primary hyperparathyroidism>,<and >,<vitamin D deficiency>
+keratoconus,primary open angle glaucoma
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<keratoconus>,<and >,<primary open angle glaucoma>
+osteoporosis,glaucoma
+{<,0.0>,<effects,1.4464534075104313E-4>,<including,5.45201668984701E-4>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and >,<glaucoma>
+Age,Ageing
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Age>,<>,<Ageing>
+sarcoidosis,granulomatosis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<sarcoidosis>,<>,<granulomatosis>
+diabetic retinopathy,kidney diseases
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<kidney diseases>
+central retinal artery occlusion,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<neovascular,3.870967741935484E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<central retinal artery occlusion>,<and neovascular >,<glaucoma>
+diabetic retinopathy,cataract
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<>,<cataract>
+{<associated,3.504867872044506E-4>,<with,0.016255910987482615>,<DM,5.563282336578582E-6>,<and,0.03957446808510638>,<papillopathy,8.236101578586136E-6>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and papillopathy >,<cataract>
+Episcleritis,scleritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Episcleritis>,<and >,<scleritis>
+Cataracts,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<open-angle,0.00848318462594372>,<,0.0>,<,0.0>,<,0.0>,}
+{<Cataracts>,<and open-angle >,<glaucoma>
+contusion,injury
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<contusion>,<>,<injury>
+Anterior uveitis,juvenile idiopathic arthritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Anterior uveitis>,<and >,<juvenile idiopathic arthritis>
+posterior ischemic optic neuropathy,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<normal,0.0046845858475041136>,<tension,0.003609434997257268>,<,0.0>,<,0.0>,<,0.0>,}
+{<posterior ischemic optic neuropathy>,<and normal tension >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<normal,0.00449691146190803>,<tension,0.0035579958819492107>,<,0.0>,<,0.0>,<,0.0>,}
+{<posterior ischemic optic neuropathy>,<and normal tension >,<glaucoma>
+Human immunodeficiency virus infection,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Human immunodeficiency virus infection>,<and >,<kidney disease>
+headaches,joint pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<headaches>,<and >,<joint pain>
+obesity,related
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<obesity>,<>,<related>
+{<,0.0>,< Since,5.006954102920724E-5>,<the,0.004956884561891517>,<figures,8.236101578586136E-6>,<and,0.03957446808510638>,<comorbidities,1.0065425264217415E-5>,<are,0.0013286361348766986>,<increasing,1.509813789632612E-4>,}
+{<obesity>,<figures and >,<related>
+Graves' disease,Hashimoto's thyroiditis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Graves' disease>,<and >,<Hashimoto's thyroiditis>
+Injury,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Injury>,<>,<appendicitis>
+Migraine,tension
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Migraine>,<and >,<tension>
+fatigue,insomnia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<fatigue>,<>,<insomnia>
+retinoblastoma,childhood
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinoblastoma>,<>,<childhood>
+retinal detachment,iritis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal detachment>,<>,<iritis>
+{<open,5.563282336578582E-5>,<angle,2.9485396383866484E-4>,<glaucoma,5.118219749652295E-4>,<5,3.870967741935484E-4>,<1,5.535983895319578E-4>,<,0.0>,<,0.0>,}
+{<retinal detachment>,<5 >,<iritis>
+appendicitis,noninfectious gastroenteritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<appendicitis>,<and >,<noninfectious gastroenteritis>
+toxoplasmosis,sarcoidosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<toxoplasmosis>,<and >,<sarcoidosis>
+diarrhea,lymphocytopenia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diarrhea>,<>,<lymphocytopenia>
+kidney disease,burns
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<kidney disease>,<and >,<burns>
+giant cell arteritis,central retinal artery occlusion
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<giant cell arteritis>,<and >,<central retinal artery occlusion>
+abdominal mass,tenderness
+{<,0.0>,<,0.0>,<,0.0>,<and/or,3.7062457103637607E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal mass>,<and/or >,<tenderness>
+abscess,peritonitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<abscess>,<or >,<peritonitis>
+{<,0.0>,<liver,1.3351877607788596E-4>,<amoebic,5.563282336578582E-6>,<intraperitoneal,2.4708304735758405E-5>,<rupture,8.236101578586136E-6>,<is,0.006613589567604667>,<the,0.022509265614275912>,<most,0.0010706932052161975>,<common,8.647906657515443E-4>,<cause,5.271105010295127E-4>,<of,0.02437886067261496>,<and,0.01171615500754907>,<is,0.0030296930045294415>,<still,5.032712632108707E-5>,}
+{<abscess>,<intraperitoneal rupture is the most common cause of >,<peritonitis>
+Non-alcoholic Fatty Liver,Disease
+{<the,0.004956884561891517>,<diagnosis,5.618915159944368E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<Non-alcoholic Fatty Liver>,<>,<Disease>
+mumps,rubella
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<mumps>,<>,<rubella>
+cataract,infections
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<infections>
+osteoporosis,fractures
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and >,<fractures>
+{<,0.0>,<,0.0>,< including,7.232267037552156E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteoporosis>,<and >,<fractures>
+retinal artery occlusion,endophthalmitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal artery occlusion>,<and >,<endophthalmitis>
+vomiting,obstipation
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<or >,<obstipation>
+wound,infection
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<wound>,<>,<infection>
+{<,0.0>,<had,8.289290681502087E-4>,<superficial,5.006954102920724E-5>,<alone,1.6104680422747864E-4>,<12,1.2078510317060897E-4>,<,0.0>,}
+{<wound>,<>,<infection>
+mycoplasma infection,malaria
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<mycoplasma infection>,<>,<malaria>
+insomnia,cramps
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<the,0.004418721690991444>,<most,1.8117765475591344E-4>,}
+{<insomnia>,<and >,<cramps>
+disease,retinopathy
+{<,0.0>,<,0.0>,< cardiovascular,3.894297635605007E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<retinopathy>
+amblyopia,strabismus
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<amblyopia>,<and >,<strabismus>
+raised intraocular pressure,ocular hypertension
+{<the,0.004854254356634279>,<management,4.012430667558318E-4>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<raised intraocular pressure>,<and >,<ocular hypertension>
+{<the,0.004956884561891517>,<management,4.78442280945758E-4>,<of,0.014186369958275383>,<and,0.03957446808510638>,<is,0.006613589567604667>,<a,0.008524365133836649>,<suitable,4.118050789293068E-5>,<alternative,6.588881262868909E-5>,<to,0.010385724090597117>,<ocular,0.002240219629375429>,<timolol,2.964996568291009E-4>,<in,0.02216334934797529>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<chronic,0.0025202470830473574>,<open,5.024021962937542E-4>,<angle,0.001326012354152368>,<glaucoma,0.0029238160603980786>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<raised intraocular pressure>,<and is a suitable alternative to ocular timolol in patients with chronic open angle glaucoma or >,<ocular hypertension>
+glaucoma,suspicion
+{<,0.0>,<,0.0>,<or,8.12239221140473E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<suspicion>
+oral aphthous ulcers,cutaneous polyarteritis nodosa
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<oral aphthous ulcers>,<>,<cutaneous polyarteritis nodosa>
+Childhood,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Childhood>,<>,<appendicitis>
+{<,0.0>,<,0.0>,<,0.0>,<in,0.005405133366884751>,<the,0.004418721690991444>,<United,4.026170105686966E-5>,}
+{<Childhood>,<>,<appendicitis>
+pressure,primary open angle glaucoma
+{<to,0.0016521773337004838>,<reduce,1.5735022225718895E-4>,<intraocular,0.013657999291924001>,<in,0.022051563357103676>,<patients,0.01292375205704882>,<with,0.02>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<in patients with >,<primary open angle glaucoma>
+{<,0.0>,<with,0.016255910987482615>,<intraocular,0.011354659248956886>,<and,0.03957446808510638>,<OAG,0.001046804227478611>,<,0.0>,<,0.0>,}
+{<pressure>,<and >,<primary open angle glaucoma>
+atherosclerosis,Alzheimer's disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<>,<Alzheimer's disease>
+{<,0.0>,<,0.0>,< hypertension,5.006954102920724E-5>,<cancer,2.2237474262182567E-4>,<and,0.03957446808510638>,<is,0.0030296930045294415>,<on,7.448414695520886E-4>,<the,0.004418721690991444>,}
+{<atherosclerosis>,<cancer and >,<Alzheimer's disease>
+nephrolithiasis,nephrocalcinosis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<nephrolithiasis>,<and >,<nephrocalcinosis>
+raised intraocular pressure,glaucoma
+{<the,0.004854254356634279>,<management,4.012430667558318E-4>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<raised intraocular pressure>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,< Since,5.006954102920724E-5>,<IOP,0.008409059711736444>,<has,9.389155799588195E-4>,<been,7.494852436513384E-4>,<implicated,5.765271105010295E-5>,<as,0.003648592999313658>,<the,0.022509265614275912>,<major,3.953328757721345E-4>,<risk,0.0022814001372683597>,<factor,0.0012354152367879203>,<the,0.022509265614275912>,<main,1.3177762525737818E-4>,<goal,4.941660947151681E-5>,<of,0.02437886067261496>,<all,3.953328757721345E-4>,<treatment,8.656265727226975E-4>,<is,0.0030296930045294415>,<to,0.002415702063412179>,}
+{<raised intraocular pressure>,<IOP has been implicated as the major risk factor the main goal of all >,<glaucoma>
+cataract,primary open-angle glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<primary open-angle glaucoma>
+{<hydrodynamics,1.1126564673157164E-5>,<after,2.781641168289291E-4>,<phacoemulsification,4.4506258692628656E-5>,<surgery,0.00217433081674674>,<in,0.02216334934797529>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<surgery in patients with >,<primary open-angle glaucoma>
+pain,vomiting
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<pain>,<or >,<vomiting>
+{< The,6.230876216968012E-4>,<classic,5.563282336578582E-6>,<periumbilical,1.6689847009735745E-5>,<that,0.0027755662319835276>,<migrates,8.236101578586136E-6>,<to,0.010385724090597117>,<the,0.022509265614275912>,<right,8.236101578586135E-5>,<lower,6.67124227865477E-4>,<quadrant,4.118050789293068E-5>,<followed,1.153054221002059E-4>,<by,0.002199039121482498>,<the,0.022509265614275912>,<onset,1.5648592999313655E-4>,<of,0.02437886067261496>,<fever,8.236101578586136E-6>,<and,0.03957446808510638>,<is,0.0030296930045294415>,<present,7.045797684952189E-5>,<,0.0>,}
+{<pain>,<that migrates to the right lower quadrant followed by the onset of fever and >,<vomiting>
+pressure,secondary glaucoma
+{<to,0.0016521773337004838>,<elevated,6.844734668187719E-4>,<intraocular,0.013657999291924001>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<and >,<secondary glaucoma>
+{<extraction,3.894297635605007E-5>,<and,0.005184979137691238>,<intraocular,0.011354659248956886>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<>,<secondary glaucoma>
+meningitis,pneumonia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<meningitis>,<>,<pneumonia>
+{<most,8.901251738525731E-5>,<often,2.781641168289291E-5>,<from,7.566063977746872E-4>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<meningitis>,<or >,<pneumonia>
+cholecystitis,pancreatitis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<cholecystitis>,<or >,<pancreatitis>
+{<the,0.004956884561891517>,<diagnosis,5.618915159944368E-4>,<of,0.014186369958275383>,<ovaria,2.013085052843483E-5>,<,0.0>,<,0.0>,}
+{<cholecystitis>,<>,<pancreatitis>
+pressure,pressure
+{<or,7.867511112859447E-4>,<without,2.7536288895008067E-4>,<intraocular,0.013657999291924001>,<elevation,4.498080087767416E-4>,<diffuse,1.0970927043335162E-5>,<hypoperfusion,1.0970927043335162E-5>,<suggested,6.582556226001097E-5>,<that,0.0028195282501371367>,<prolonged,2.1941854086670324E-5>,<intraocular,0.011574328030718594>,<elevation,1.2096469343010509E-4>,<may,6.804264005443412E-4>,<simultaneously,1.5120586678763136E-5>,}
+{<pressure>,<elevation diffuse hypoperfusion suggested that prolonged intraocular >,<pressure>
+{<alcohol-related,7.867511112859448E-6>,<cirrhosis,1.5735022225718896E-5>,<sinusoidal,7.867511112859448E-6>,<is,0.00643993417443774>,<generally,6.582556226001097E-5>,<higher,6.8019747668678E-4>,<hepatic,5.48546352166758E-5>,<venous,1.2068019747668677E-4>,<gradien,3.0241173357526272E-5>,<,0.0>,<,0.0>,}
+{<pressure>,<is generally higher hepatic venous >,<pressure>
+myopia,glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<myopia>,<or >,<glaucoma>
+{<small,3.337969401947149E-5>,<spherical,1.1126564673157164E-5>,<lens,1.1126564673157164E-5>,<secondary,5.024021962937542E-4>,<to,0.010385724090597117>,<the,0.022509265614275912>,<abnormal,1.5648592999313655E-4>,<shape,1.6472203157172272E-5>,<of,0.02437886067261496>,<the,0.022509265614275912>,<lens,3.788606726149623E-4>,<ectopia,2.4708304735758405E-5>,<lentis,2.4708304735758405E-5>,<abnormal,1.5648592999313655E-4>,<position,9.883321894303362E-5>,<of,0.02437886067261496>,<the,0.022509265614275912>,<lens,3.788606726149623E-4>,<and,0.03957446808510638>,<which,5.8379466532461E-4>,<can,3.120281831907398E-4>,<,0.0>,}
+{<myopia>,<secondary to the abnormal shape of the lens ectopia lentis abnormal position of the lens and >,<glaucoma>
+pneumonia,hepatitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<pneumonia>,<>,<hepatitis>
+retinal detachment,vitreous hemorrhage
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal detachment>,<or >,<vitreous hemorrhage>
+disease,obesity
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<obesity>
+{<,0.0>,<,0.0>,<,0.0>,<-,1.647220315717227E-4>,<weight,8.236101578586136E-6>,<reduction,0.0011283459162663005>,<and,0.03957446808510638>,<physical,8.236101578586136E-6>,<exercise,3.2944406314344544E-5>,<in,0.02216334934797529>,<metformin,1.0065425264217415E-5>,<in,0.005405133366884751>,<,0.0>,}
+{<disease>,<- weight reduction and physical exercise in >,<obesity>
+ileus,wound hematoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<ileus>,<and >,<wound hematoma>
+difficulty breathing,back pain
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<difficulty breathing>,<>,<back pain>
+alcoholic hepatitis,bleeding
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<alcoholic hepatitis>,<and >,<bleeding>
+ileus,wound
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<ileus>,<>,<wound>
+Postoperative intra-abdominal abscess,wound
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Postoperative intra-abdominal abscess>,<and >,<wound>
+disease,diseases
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and cardiovascular >,<diseases>
+{<,0.0>,<,0.0>,<,0.0>,<NAFLD,0.0016389842141386409>,<remains,1.9766643788606724E-4>,<among,4.941660947151681E-4>,<the,0.022509265614275912>,<most,0.0010706932052161975>,<common,8.647906657515443E-4>,<liver,9.059711736444749E-4>,<worldwide,1.1071967790639157E-4>,<with,0.003120281831907398>,<,0.0>,}
+{<disease>,<NAFLD remains among the most common liver >,<diseases>
+erythema,swelling
+{<effects,1.4464534075104313E-4>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<erythema>,<>,<swelling>
+tenderness,fever
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<tenderness>,<and >,<fever>
+heart disease,hypothyroidism
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<heart disease>,<>,<hypothyroidism>
+sepsis,mycoplasma infection
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<sepsis>,<>,<mycoplasma infection>
+dental caries,drug allergy
+{<,0.0>,<,0.0>,<,0.0>,<head,2.4708304735758405E-4>,<injury,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<dental caries>,<head injury and >,<drug allergy>
+wound,infections
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<wound>,<>,<infections>
+{<,0.0>,<case,5.563282336578582E-5>,<had,8.289290681502087E-4>,<wherea,1.0065425264217415E-5>,<,0.0>,<,0.0>,}
+{<wound>,<>,<infections>
+fever,nausea
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<>,<nausea>
+{<,0.0>,<39%,5.563282336578582E-6>,<with,0.016255910987482615>,<o,0.0015702063412179165>,<,0.0>,<,0.0>,}
+{<fever>,<>,<nausea>
+asthma,vertigo
+{<disorders,5.006954102920724E-5>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<asthma>,<>,<vertigo>
+hyphema,vitreous hemorrhage
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hyphema>,<and >,<vitreous hemorrhage>
+{<with,0.016255910987482615>,<unexplained,1.1126564673157164E-5>,<recurrent,3.337969401947149E-5>,<or,0.015294440631434453>,<,0.0>,<,0.0>,<,0.0>,}
+{<hyphema>,<or >,<vitreous hemorrhage>
+glaucoma,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<primary open-angle glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<NTG,0.00253671928620453>,<and,0.03957446808510638>,<POAG,0.00467035732259688>,<,0.0>,<,0.0>,}
+{<glaucoma>,<NTG and >,<primary open-angle glaucoma>
+constipation,diarrhea
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<constipation>,<and >,<diarrhea>
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.01171615500754907>,<urinary,2.013085052843483E-5>,<,0.0>,}
+{<constipation>,<>,<diarrhea>
+Wilson's disease,pheochromocytoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Wilson's disease>,<>,<pheochromocytoma>
+Chronic kidney disease,complications
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<Chronic kidney disease>,<and cardiovascular >,<complications>
+{<,0.0>,<,0.0>,<,0.0>,<CKD,1.647220315717227E-4>,<is,0.006613589567604667>,<associated,0.0013671928620452984>,<with,0.021455044612216884>,<the,0.022509265614275912>,<risk,0.0022814001372683597>,<of,0.02437886067261496>,<multiple,1.153054221002059E-4>,<life-threatening,1.6472203157172272E-5>,<such,2.516356316054353E-4>,<as,9.662808253648717E-4>,<,0.0>,}
+{<Chronic kidney disease>,<CKD is associated with the risk of multiple life-threatening >,<complications>
+vomiting,diarrhea
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<and >,<diarrhea>
+{<in,0.009068150208623088>,<infancy,1.1126564673157164E-5>,<with,0.016255910987482615>,<poor,3.0196275792652242E-5>,<weight,4.026170105686966E-5>,<,0.0>,}
+{<vomiting>,<>,<diarrhea>
+diabetic retinopathy,age-related macular degeneration
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetic retinopathy>,<and >,<age-related macular degeneration>
+{<,0.0>,<,0.0>,<,0.0>,<corneal,1.0065425264217414E-4>,<neovascularization,2.013085052843483E-5>,<,0.0>,}
+{<diabetic retinopathy>,<>,<age-related macular degeneration>
+fever,diarrhea
+{<,0.0>,<,0.0>,<,0.0>,<anorexia,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<fever>,<anorexia and >,<diarrhea>
+meningitis,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<meningitis>,<>,<appendicitis>
+{<,0.0>,<,0.0>,< mononucleosis,5.563282336578582E-6>,<an,0.0026673376950176147>,<,0.0>,<,0.0>,}
+{<meningitis>,<>,<appendicitis>
+sepsis,ischemia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sepsis>,<and >,<ischemia>
+myopia,acute angle-closure glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<myopia>,<and >,<acute angle-closure glaucoma>
+diarrhea,wheezing
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<diarrhea>,<>,<wheezing>
+Postoperative infection,wound
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Postoperative infection>,<>,<wound>
+primary angle-closure glaucoma,primary open-angle glaucoma
+{<in,0.009068150208623088>,<treatment,0.001090403337969402>,<of,0.014186369958275383>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary angle-closure glaucoma>,<and >,<primary open-angle glaucoma>
+vomiting,fever
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<vomiting>,<and >,<fever>
+{<,0.0>,<,0.0>,< anorexia,2.2253129346314328E-5>,<and,0.03957446808510638>,<and,0.01171615500754907>,<right,6.0392551585304484E-5>,<lower,2.0130850528434828E-4>,}
+{<vomiting>,<and >,<fever>
+glaucoma,myasthenia gravis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<myasthenia gravis>
+hyperparathyroidism,pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hyperparathyroidism>,<and >,<pain>
+disease,steatohepatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<steatohepatitis>
+{<course,5.563282336578582E-5>,<of,0.014186369958275383>,<this,2.058414464534075E-4>,<including,0.001095401509951956>,<its,5.600549073438572E-4>,<subtype,1.400137268359643E-4>,<non-alcoholic,5.024021962937542E-4>,<NASH,8.75691997986915E-4>,<,0.0>,<,0.0>,}
+{<disease>,<including its subtype non-alcoholic >,<steatohepatitis>
+age-related macular degeneration,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<are,0.0013286361348766986>,<continuous,3.0196275792652242E-5>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<glaucoma>
+pharyngitis,abdominal pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<pharyngitis>,<and >,<abdominal pain>
+heart failure,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<heart failure>,<and chronic >,<kidney disease>
+hemochromatosis,Wilson's disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<hemochromatosis>,<>,<Wilson's disease>
+{<,0.0>,<,0.0>,< hereditary,1.1126564673157164E-5>,<as,9.662808253648717E-4>,<well,2.3150478107700052E-4>,<a,0.0037141419224962255>,}
+{<hemochromatosis>,<>,<Wilson's disease>
+nevus spilus,nevus of Ota
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<nevus spilus>,<and >,<nevus of Ota>
+peritonitis,death
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<peritonitis>,<and >,<death>
+Sarcoidosis,uveitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Sarcoidosis>,<and >,<uveitis>
+disease,cholestasis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.01171615500754907>,<hepatocellular,8.052340211373932E-5>,<carcinoma,5.032712632108707E-5>,}
+{<disease>,<>,<cholestasis>
+obesity,alcohol abuse
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<obesity>,<and >,<alcohol abuse>
+epilepsy,seizures
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<epilepsy>,<and >,<seizures>
+ocular hypertension,primary open-angle glaucoma
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<or >,<primary open-angle glaucoma>
+{<primary,0.0027371349095966623>,<treatment,0.001090403337969402>,<for,0.0031933240611961063>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<ocular hypertension>,<and >,<primary open-angle glaucoma>
+afibrinogenemia,ruptured ectopic pregnancy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<afibrinogenemia>,<and >,<ruptured ectopic pregnancy>
+infections,acute appendicitis
+{<disorders,5.006954102920724E-5>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<infections>,<>,<acute appendicitis>
+nephrocalcinosis,kidney stones
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<nephrocalcinosis>,<and >,<kidney stones>
+related,complications
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<>,<complications>
+{<,0.0>,<,0.0>,< and,2.2809457579972184E-4>,<renovascular,8.236101578586136E-6>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<renovascular >,<complications>
+fluctuations,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<fluctuations>,<and >,<glaucoma>
+glaucoma,secondary infection
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<secondary infection>
+death,malaria
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<death>,<>,<malaria>
+{< The,6.230876216968012E-4>,<tenet,5.563282336578582E-6>,<of,0.014186369958275383>,<as,0.003648592999313658>,<a,0.008524365133836649>,<rare,5.765271105010295E-5>,<outcome,1.5648592999313655E-4>,<derived,4.118050789293068E-5>,<from,0.002199039121482498>,<antiquated,8.236101578586136E-6>,<and,0.03957446808510638>,<flawed,8.236101578586136E-6>,<clinical,6.259437199725462E-4>,<classifications,8.236101578586136E-6>,<disregarded,8.236101578586136E-6>,<key,2.4708304735758405E-5>,<clinical,6.259437199725462E-4>,<evidence,2.3884694577899792E-4>,<including,0.001095401509951956>,<i,7.412491420727523E-5>,<high,9.389155799588195E-4>,<rates,1.400137268359643E-4>,<of,0.02437886067261496>,<mortality,9.883321894303362E-5>,<in,0.02216334934797529>,<neurosyphilis,8.236101578586136E-6>,<patients,0.012815374056280027>,<treated,5.106382978723404E-4>,<with,0.021455044612216884>,<vivax,8.236101578586136E-6>,<ii,1.0065425264217415E-5>,<,0.0>,<,0.0>,}
+{<death>,<as a rare outcome derived from antiquated and flawed clinical classifications disregarded key clinical evidence including i high rates of mortality in neurosyphilis patients treated with vivax >,<malaria>
+Headache,abdominal pain
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Headache>,<and >,<abdominal pain>
+constipation,reflux
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<constipation>,<and >,<reflux>
+Iridoschisis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Iridoschisis>,<and >,<glaucoma>
+Agammaglobulinemia,neutropenia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Agammaglobulinemia>,<>,<neutropenia>
+vitreous hemorrhage,secondary glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<vitreous hemorrhage>,<>,<secondary glaucoma>
+cholestasis,hepatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<autoimmune,1.0706932052161976E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<cholestasis>,<and autoimmune >,<hepatitis>
+small bowel obstruction,wound
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<small bowel obstruction>,<and >,<wound>
+{<,0.0>,<,0.0>,<,0.0>,<EL,8.236101578586136E-6>,<n=0,1.6472203157172272E-5>,<ES,8.236101578586136E-6>,<n=0,1.6472203157172272E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<small bowel obstruction>,<EL n=0 ES n=0 and >,<wound>
+sepsis,acute pancreatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<sepsis>,<and >,<acute pancreatitis>
+cataract,glaucoma
+{<the,0.004854254356634279>,<management,4.012430667558318E-4>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<glaucoma>
+{<common,1.891515994436718E-4>,<complications,6.11961057023644E-5>,<included,2.5591098748261476E-4>,<36-73%,8.236101578586136E-6>,<3-92%,1.0065425264217415E-5>,<,0.0>,<,0.0>,}
+{<cataract>,<36-73% >,<glaucoma>
+keratoconus,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<keratoconus>,<and >,<glaucoma>
+infection,ileus
+{<,0.0>,<,0.0>,< intra-abdominal,1.1126564673157164E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<infection>,<and >,<ileus>
+depression,personality disorder
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<and >,<personality disorder>
+disease,alcoholic fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<NAFLD,0.0016389842141386409>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<NAFLD and >,<alcoholic fatty liver>
+Hypothyroidism,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Hypothyroidism>,<and >,<primary open-angle glaucoma>
+wound healing,complications
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<wound healing>,<>,<complications>
+{<,0.0>,<prompting,5.563282336578582E-6>,<the,0.004956884561891517>,<process,1.8119423472889499E-4>,<fibrosis,4.118050789293068E-5>,<which,0.0011942347288949895>,<can,7.000686341798216E-4>,<ultimately,3.2944406314344544E-5>,<lead,2.059025394646534E-4>,<to,0.010385724090597117>,<the,0.022509265614275912>,<development,5.106382978723404E-4>,<of,0.02437886067261496>,<cirrhosis,5.765271105010295E-5>,<and,0.03957446808510638>,<the,0.022509265614275912>,<subsequent,8.236101578586135E-5>,<,0.0>,<,0.0>,<,0.0>,}
+{<wound healing>,<process fibrosis which can ultimately lead to the development of cirrhosis and the subsequent >,<complications>
+atherosclerosis,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<and chronic >,<kidney disease>
+glaucoma,childhood
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<>,<childhood>
+abdominal pain,fever
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<and >,<fever>
+{<4-year-old,1.6689847009735745E-5>,<girl,2.2253129346314328E-5>,<with,0.016255910987482615>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<and >,<fever>
+cramp,attacks
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<cramp>,<>,<attacks>
+hypoxia,iron deficiency
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hypoxia>,<and >,<iron deficiency>
+exhaustion,tiredness
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<exhaustion>,<>,<tiredness>
+fatty liver,disease
+{<player,7.867511112859448E-6>,<in,0.009362338224302743>,<non-alcoholic,0.0036741276897053615>,<,0.0>,<,0.0>,<,0.0>,}
+{<fatty liver>,<>,<disease>
+{< Treatment,3.147004445143779E-5>,<of,0.013799614491955471>,<non-alcoholic,0.0036741276897053615>,<-,1.0584410675134196E-4>,<weight,4.536176003628941E-5>,<reduction,4.5361760036289413E-4>,}
+{<fatty liver>,<>,<disease>
+croup,pneumonia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<croup>,<>,<pneumonia>
+iritis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<iritis>,<>,<glaucoma>
+arthritis,acute pancreatitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<arthritis>,<and >,<acute pancreatitis>
+hypothyroidism,sleep apnea
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hypothyroidism>,<and >,<sleep apnea>
+multiple sclerosis,Alzheimer's disease
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<multiple sclerosis>,<and >,<Alzheimer's disease>
+cataract,retinal detachment
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<retinal detachment>
+{<of,0.014186369958275383>,<local,1.1126564673157164E-5>,<complications,6.11961057023644E-5>,<rubeosis,1.6472203157172272E-5>,<neovascular,4.026170105686966E-5>,<glaucoma,5.234021137393055E-4>,<,0.0>,}
+{<cataract>,<rubeosis >,<retinal detachment>
+depression,anxiety disorder
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<>,<anxiety disorder>
+primary open angle glaucoma,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary open angle glaucoma>,<and >,<diabetic retinopathy>
+age-related macular degeneration,myopia
+{<,0.0>,<,0.0>,<,0.0>,<AMD,2.2237474262182567E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<AMD >,<myopia>
+cataract,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataract>,<and >,<diabetic retinopathy>
+glaucoma,choroiditis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<choroiditis>
+abdominal pain,weight loss
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<and >,<weight loss>
+pain,fatigue
+{<,0.0>,<,0.0>,<,0.0>,<anorexia,4.941660947151681E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<pain>,<anorexia and >,<fatigue>
+thrombocytopenia,leukopenia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<thrombocytopenia>,<and >,<leukopenia>
+disease,aging
+{<,0.0>,<,0.0>,< cardiovascular,3.894297635605007E-5>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<aging>
+Peptic ulcer,gastritis
+{<,0.0>,<,0.0>,<,0.0>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<Peptic ulcer>,<or >,<gastritis>
+secondary glaucoma,hyphema
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<secondary glaucoma>,<>,<hyphema>
+multiple sclerosis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<multiple sclerosis>,<and >,<glaucoma>
+atherosclerosis,disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<and cardiovascular >,<disease>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<cardiovascular,0.0010212765957446808>,<,0.0>,<,0.0>,<,0.0>,}
+{<atherosclerosis>,<and cardiovascular >,<disease>
+Glaucoma,blindness
+{<the,0.004956884561891517>,<incidence,3.337969401947149E-4>,<of,0.014186369958275383>,<,0.0>,<,0.0>,<,0.0>,}
+{<Glaucoma>,<>,<blindness>
+cataracts,primary open-angle glaucoma
+{<the,0.004854254356634279>,<management,4.012430667558318E-4>,<of,0.013799614491955471>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataracts>,<and >,<primary open-angle glaucoma>
+{<the,0.004956884561891517>,<management,4.78442280945758E-4>,<of,0.014186369958275383>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<cataracts>,<and >,<primary open-angle glaucoma>
+hypotension,tachycardia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<hypotension>,<and >,<tachycardia>
+papilledema,secondary glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<papilledema>,<>,<secondary glaucoma>
+pre-eclampsia,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<pre-eclampsia>,<and >,<kidney disease>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<pre-eclampsia>,<and chronic >,<kidney disease>
+Plateau iris,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<in,0.02216334934797529>,<open-angle,0.00848318462594372>,<,0.0>,<,0.0>,<,0.0>,}
+{<Plateau iris>,<in open-angle >,<glaucoma>
+rickets,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<rickets>,<and >,<kidney disease>
+{<the,0.004956884561891517>,<hereditary,5.563282336578582E-6>,<hypophosphatemic,1.1126564673157164E-5>,<group,0.001210706932052162>,<and,0.03957446808510638>,<chronic,0.0025202470830473574>,<and,0.01171615500754907>,<is,0.0030296930045294415>,<,0.0>,}
+{<rickets>,<group and chronic >,<kidney disease>
+Childhood,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Childhood>,<>,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.0030296930045294415>,<a,0.0037141419224962255>,<major,1.0065425264217414E-4>,}
+{<Childhood>,<>,<glaucoma>
+erythema nodosum,conjunctivitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<erythema nodosum>,<and >,<conjunctivitis>
+{<,0.0>,<,0.0>,<(ReA,5.563282336578582E-6>,<EN,8.236101578586136E-6>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<erythema nodosum>,<EN and >,<conjunctivitis>
+childhood,appendicitis
+{<the,0.004854254356634279>,<pathogenesis,2.674953778372212E-4>,<of,0.013799614491955471>,<,0.0>,<,0.0>,<,0.0>,}
+{<childhood>,<>,<appendicitis>
+{<diagnostic,1.6689847009735745E-5>,<accuracy,5.563282336578582E-6>,<for,0.0031933240611961063>,<while,1.0065425264217414E-4>,<minimizing,1.0065425264217415E-5>,<,0.0>,}
+{<childhood>,<>,<appendicitis>
+ileus,intussusception
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<ileus>,<and >,<intussusception>
+dehydration,pneumonia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<dehydration>,<>,<pneumonia>
+diabetes mellitus,pneumonia
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<diabetes mellitus>,<and >,<pneumonia>
+disease,cholecystitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<and >,<cholecystitis>
+end stage renal disease,disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<end stage renal disease>,<and cardiovascular >,<disease>
+thalassaemia,arthritis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<thalassaemia>,<and >,<arthritis>
+depression,social isolation
+{<is,3.1710709318497917E-4>,<associated,3.504867872044506E-4>,<with,0.016255910987482615>,<,0.0>,<,0.0>,<,0.0>,}
+{<depression>,<>,<social isolation>
+related,kidney disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<>,<kidney disease>
+{<,0.0>,<Acupuncture,5.563282336578582E-6>,<and,0.005184979137691238>,<interventions,3.2944406314344544E-5>,<for,0.006193548387096774>,<symptoms,6.588881262868909E-5>,<of,0.02437886067261496>,<chronic,0.0025202470830473574>,<,0.0>,<,0.0>,<,0.0>,}
+{<related>,<interventions for symptoms of chronic >,<kidney disease>
+osteosarcoma,leiomyosarcoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<osteosarcoma>,<>,<leiomyosarcoma>
+{<terms,1.0013908205841448E-4>,<were,5.841446453407511E-4>,<NF,5.563282336578582E-6>,<somatostatinoma,1.0065425264217415E-5>,<and,0.01171615500754907>,<,0.0>,}
+{<osteosarcoma>,<>,<leiomyosarcoma>
+psoriasis,dry eye
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<psoriasis>,<>,<dry eye>
+papilledema,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<papilledema>,<and >,<glaucoma>
+asthma,anemia
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<asthma>,<>,<anemia>
+sinusitis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<sinusitis>,<>,<glaucoma>
+Sleep apnoea,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Sleep apnoea>,<and >,<glaucoma>
+Kearns-Sayre syndrome,primary open-angle glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Kearns-Sayre syndrome>,<and >,<primary open-angle glaucoma>
+glaucoma,ocular hypertension
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<or,0.015041140976412506>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<or >,<ocular hypertension>
+{<with,0.01634868809252193>,<primary,0.0034144998229810003>,<open-angle,0.009913064002202904>,<or,0.015041140976412506>,<analysis,6.0482346715052544E-5>,<by,8.618734406894988E-4>,<,0.0>,}
+{<glaucoma>,<or >,<ocular hypertension>
+constipation,fever
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<constipation>,<and >,<fever>
+Lens-induced uveitis,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Lens-induced uveitis>,<and >,<glaucoma>
+Measles,related
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Measles>,<>,<related>
+paraplegia,depression
+{<,0.0>,<,0.0>,<or,8.12239221140473E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<paraplegia>,<>,<depression>
+retinal detachment,retinal hemorrhage
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<retinal detachment>,<and >,<retinal hemorrhage>
+porphyrias,Alzheimer's disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<porphyrias>,<and >,<Alzheimer's disease>
+intermediate uveitis,posterior uveitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<intermediate uveitis>,<>,<posterior uveitis>
+{<patients,0.008428372739916552>,<with,0.016255910987482615>,<noninfectious,5.563282336578582E-6>,<o,0.0015702063412179165>,<,0.0>,<,0.0>,}
+{<intermediate uveitis>,<>,<posterior uveitis>
+Obesity,fatty liver
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Obesity>,<>,<fatty liver>
+{<,0.0>,<,0.0>,<,0.0>,<is,0.006613589567604667>,<associated,0.0013671928620452984>,<with,0.021455044612216884>,<adipose,8.236101578586136E-6>,<tissue,1.0706932052161976E-4>,<dysfunction,6.588881262868909E-5>,<leading,3.04735758407687E-4>,<to,0.010385724090597117>,<the,0.022509265614275912>,<onset,1.5648592999313655E-4>,<of,0.02437886067261496>,<several,1.5648592999313655E-4>,<pathologies,3.2944406314344544E-5>,<including,0.001095401509951956>,<type,6.506520247083047E-4>,<2,0.0010212765957446808>,<diabetes,3.6238846945778997E-4>,<dyslipidemia,4.118050789293068E-5>,<nonalcoholic,7.165408373369938E-4>,<or,0.002073477604428787>,<hypertension,2.0130850528434828E-4>,<,0.0>,}
+{<Obesity>,<is associated with adipose tissue dysfunction leading to the onset of several pathologies including type 2 diabetes dyslipidemia nonalcoholic >,<fatty liver>
+pressure,narrow angle
+{<extraction,3.894297635605007E-5>,<on,0.0015966620305980532>,<intraocular,0.011354659248956886>,<in,0.02216334934797529>,<patients,0.012815374056280027>,<with,0.021455044612216884>,<,0.0>,<,0.0>,<,0.0>,}
+{<pressure>,<in patients with >,<narrow angle>
+Meckel's diverticulum,appendicitis
+{<in,0.009362338224302743>,<patients,0.00852838204633964>,<with,0.01634868809252193>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Meckel's diverticulum>,<and >,<appendicitis>
+{<children,8.344923504867873E-5>,<with,0.016255910987482615>,<complicated,1.6689847009735745E-5>,<MD,9.883321894303362E-5>,<were,0.002363761153054221>,<initially,5.765271105010295E-5>,<diagnosed,4.5298558682223744E-4>,<with,0.021455044612216884>,<,0.0>,<,0.0>,<,0.0>,}
+{<Meckel's diverticulum>,<MD were initially diagnosed with >,<appendicitis>
+Nonalcoholic fatty liver,disease
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Nonalcoholic fatty liver>,<>,<disease>
+{<,0.0>,<,0.0>,<,0.0>,<NAFLD,0.006643180674383492>,<,0.0>,<,0.0>,}
+{<Nonalcoholic fatty liver>,<>,<disease>
+glaucoma,pressure
+{<loss,1.1801266669289172E-4>,<in,0.009362338224302743>,<normal-tension,0.0018173950670705324>,<there,3.6204059243006035E-4>,<may,0.0015469007131102576>,<be,0.0020735052111903454>,<a,0.008392759188151399>,<possible,2.0844761382336806E-4>,<benefit,1.2068019747668677E-4>,<from,0.0017443773998902909>,<therapeutic,2.7427317608337906E-4>,<efforts,3.2912781130005486E-5>,<to,0.009939659901261656>,<lower,7.569939659901262E-4>,<the,0.02435545803620406>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<there may be a possible benefit from therapeutic efforts to lower the >,<pressure>
+{<and,0.0049329294677628735>,<may,3.147004445143779E-5>,<need,3.147004445143779E-5>,<surgery,0.0013055403181568843>,<to,0.009939659901261656>,<control,0.001371365880416895>,<high,0.0011300054854635215>,<intraocular,0.011574328030718594>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<surgery to control high intraocular >,<pressure>
+brachydactyly,joint stiffness
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<brachydactyly>,<and >,<joint stiffness>
+females,aged
+{<,0.0>,<,0.0>,<and,0.0049329294677628735>,<,0.0>,<,0.0>,<,0.0>,}
+{<females>,<>,<aged>
+{<,0.0>,<5,2.2253129346314328E-5>,<children,8.344923504867873E-5>,<9,6.0392551585304484E-5>,<4-13,1.0065425264217415E-5>,<,0.0>,}
+{<females>,<>,<aged>
+glaucoma,diabetic retinopathy
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<glaucoma>,<and >,<diabetic retinopathy>
+{<diseases,1.557719054242003E-4>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<or,0.002073477604428787>,<central/branch,1.0065425264217415E-5>,<retinal,1.7111222949169603E-4>,}
+{<glaucoma>,<>,<diabetic retinopathy>
+Hypothyroidism,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Hypothyroidism>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<the,0.022509265614275912>,<risk,0.0022814001372683597>,<of,0.02437886067261496>,<developing,2.1413864104323952E-4>,<open-angle,0.00848318462594372>,<a,0.0037141419224962255>,<five-year,1.0065425264217415E-5>,<,0.0>,}
+{<Hypothyroidism>,<and the risk of developing open-angle >,<glaucoma>
+age-related macular degeneration,dry eye syndrome
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<dry eye syndrome>
+age-related macular degeneration,trachoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<and >,<trachoma>
+age-related macular degeneration,cataract
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<age-related macular degeneration>,<>,<cataract>
+primary sclerosing cholangitis,hemochromatosis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<primary sclerosing cholangitis>,<>,<hemochromatosis>
+blindness,Absolute Glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<blindness>,<>,<Absolute Glaucoma>
+Juvenile,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Juvenile>,<>,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<has,5.737292400603926E-4>,<the,0.004418721690991444>,<worst,1.0065425264217415E-5>,}
+{<Juvenile>,<>,<glaucoma>
+Rubella,acute appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Rubella>,<and >,<acute appendicitis>
+Pressure,fluctuation
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<Pressure>,<>,<fluctuation>
+infection,genotype
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<infection>,<>,<genotype>
+Ocular hypertension,glaucoma
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<Ocular hypertension>,<and >,<glaucoma>
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03957446808510638>,<the,0.004418721690991444>,<contribution,3.0196275792652242E-5>,<,0.0>,}
+{<Ocular hypertension>,<and >,<glaucoma>
+insomnia,epilepsy
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<insomnia>,<>,<epilepsy>
+bone pain,fractures
+{<,0.0>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<and,0.03957446808510638>,<,0.0>,<,0.0>,<,0.0>,}
+{<bone pain>,<and >,<fractures>
+constipation,appendicitis
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<,0.0>,<,0.0>,<,0.0>,}
+{<constipation>,<and >,<appendicitis>
+schizophrenia,depression
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<schizophrenia>,<>,<depression>
+disease,hepatitis
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<disease>,<>,<hepatitis>
+candidiasis,cataracts
+{<effects,1.4464534075104313E-4>,<such,4.7287899860917943E-4>,<as,0.0011404728789986092>,<,0.0>,<,0.0>,<,0.0>,}
+{<candidiasis>,<>,<cataracts>
+Pre-eclampsia,disease
+{<,0.0>,<,0.0>,<,0.0>,<and,0.03247394404827208>,<cardiovascular,9.873834339001646E-4>,<,0.0>,<,0.0>,<,0.0>,}
+{<Pre-eclampsia>,<and cardiovascular >,<disease>
+abdominal pain,vomiting
+{<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,<,0.0>,}
+{<abdominal pain>,<>,<vomiting>
+{<,0.0>,<were,5.841446453407511E-4>,<severe,1.1682892906815023E-4>,<and,0.01171615500754907>,<arterial,3.0196275792652242E-5>,<,0.0>,}
+{<abdominal pain>,<>,<vomiting>

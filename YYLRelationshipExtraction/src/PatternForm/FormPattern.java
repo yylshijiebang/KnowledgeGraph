@@ -11,18 +11,21 @@ import java.util.Map.Entry;
 import javax.print.attribute.Size2DSyntax;
 
 import ExtractEntity.ExtractCandidateEntity;
+import ExtractEntity.TempEntityStore;
+import FeatureExtract.FeatureStore;
 import StaticConstant.AdjustParameter;
-import TupleWeightForm.WeightTuples;
 
 public class FormPattern {
-	
+	 float threhold = 0.79f;
+	 //加一个调整因子，每次调整阈值
+	// float deltathrehold = 0f;
 	 //将抽取的候选实体保存到文本中
 	 public void WriteIntoFile(String glaucoma){
 		    //写入文件
 		    BufferedWriter bw = null;
 		    FileWriter fileWriter=null;
 			try{
-				fileWriter = new FileWriter("E:/北航文件/编程程序/BuaaSnowball/CandidateEntityPattern.txt",true);
+				fileWriter = new FileWriter("D:/YYLSoftware/Program/YYLRelationshipExtraction/CandidateEntityPattern.txt",true);
 				bw = new BufferedWriter(fileWriter);
 			    bw.write(glaucoma);
 			    bw.newLine();  
@@ -42,112 +45,99 @@ public class FormPattern {
 	public void GetPattern(GroupTupleStore group_tuple){
 		 
 		 GroupTupleStore group_pattern = new GroupTupleStore();//保存聚好类的模板
-		 Iterator it = group_tuple.weight.entrySet().iterator();
+		 TempEntityStore tempEntityStore = new TempEntityStore();
+		 
+		 //System.out.println("FormPatternTempPattern:" + group_pattern.temp_pattern.size());
+		 //System.out.println("FormPatternClusterSentenceVector:" + group_pattern.ClusterSentenceVector.toString());
+		 
+		 Iterator it = group_tuple.ClusterSentenceVector.entrySet().iterator();
 		 String Entity = "";
  		 while(it.hasNext()){
  			 Entry entry = (Entry)it.next();
  			 
  			 Entity = (String)entry.getKey();
- 			 //System.out.println("FromPattern:"+Entity);
  			 
- 			 ArrayList<ArrayList> GroupFiveTupleCollection = new ArrayList<>();
- 			 GroupFiveTupleCollection = (ArrayList<ArrayList>) entry.getValue();
+ 			 //System.out.println("FromPatternEntity:"+Entity);
  			 
- 			 double prefix_centroid = 0.0;
-			 double middle_centroid = 0.0;
-			 double suffix_centroid = 0.0;
+ 			 ArrayList<FeatureStore> GroupFiveTupleCollection = new ArrayList<>();
+ 			 GroupFiveTupleCollection = (ArrayList<FeatureStore>) entry.getValue();
+ 			 
+ 			 //System.out.println("FromPatternGroupFiveTupleCollection:"+GroupFiveTupleCollection.toString());
+ 			 
+			 //保存中心向量
+			 ArrayList<Float> center_vector = new ArrayList<>();
+			 center_vector.clear();
+			 String center_sentence = "";
 			 
-			 ArrayList<Double> prefix = new ArrayList<>();
-			 ArrayList<Double> middle = new ArrayList<>();
-			 ArrayList<Double> suffix = new ArrayList<>();
-			 
+			 //读取一个聚类中的向量，求出中心向量
  			 for(int j = 0; j < GroupFiveTupleCollection.size(); j++){
- 				 
- 				 double prefix_temp = 0.0;
- 				 double middle_temp = 0.0;
- 				 double suffix_temp = 0.0;
- 				 
- 				 ArrayList<WeightTuples> five_tuple = GroupFiveTupleCollection.get(j);
- 				 //System.out.println("=====");
- 				 
- 				 for(int t = 0; t < AdjustParameter.PreWordNum; t++){
- 					 prefix_temp += five_tuple.get(t).weight;
- 				     prefix_centroid += five_tuple.get(t).weight;  	 
- 				 }
- 				 
- 				 for(int t = AdjustParameter.PreWordNum; t < five_tuple.size()-AdjustParameter.SufWordNUm; t++){
- 					 middle_temp +=five_tuple.get(t).weight;
- 				     middle_centroid += five_tuple.get(t).weight;	 
- 				 }
- 				 
- 				 for(int t = five_tuple.size()-AdjustParameter.SufWordNUm; t < five_tuple.size(); t++){
- 					 suffix_temp += five_tuple.get(t).weight;
- 					 suffix_centroid += five_tuple.get(t).weight;
- 				 }
- 				 
- 				 prefix.add(prefix_temp);
- 				 middle.add(middle_temp);
- 				 suffix.add(suffix_temp);
- 			 }
- 			 
- 			 prefix_centroid = prefix_centroid/prefix.size();
- 			 middle_centroid = middle_centroid/middle.size();
- 			 suffix_centroid = suffix_centroid/suffix.size();
- 			 
- 			
- 			 ArrayList<WeightTuples> temp_pattern = new ArrayList<>();//临时模板
- 			 ArrayList<ArrayList> tuple = new ArrayList<>();
- 			 
- 			 //前缀的中心向量
- 			 double min = 1.0;
- 			 int flag= -1;
- 			 for(int j = 0; j < prefix.size(); j++){
- 				 if(Math.abs(prefix.get(j)-prefix_centroid) < min){
- 					 flag = j;
- 					 min = Math.abs(prefix.get(j)-prefix_centroid);
+ 				 //ArrayList<Float> temp_vector
+ 				 if(center_vector.isEmpty()){
+ 					 for(int t = 0; t < GroupFiveTupleCollection.get(j).vector.size(); t++)
+ 					    center_vector.add(GroupFiveTupleCollection.get(j).vector.get(t));
+ 				 }else{
+	 				 for(int t = 0; t < GroupFiveTupleCollection.get(j).vector.size(); t++){
+	 					 center_vector.set(t, center_vector.get(t) + GroupFiveTupleCollection.get(j).vector.get(t));
+	 				 }
  				 }
  			 }
  			 
- 			 for(int j = 0; j < AdjustParameter.PreWordNum; j++){
- 				 temp_pattern.add((WeightTuples)GroupFiveTupleCollection.get(flag).get(j));
+ 			 for(int j = 0; j < center_vector.size(); j++){//求得中心向量
+ 				center_vector.set(j, center_vector.get(j)/(float)GroupFiveTupleCollection.size());
  			 }
  			 
- 			 //中缀的中心向量
- 			 min = 1.0;
-			 flag= -1;
-			 for(int j = 0; j < middle.size(); j++){
-				 if(Math.abs(middle.get(j)-middle_centroid) < min){
-					 flag = j;
-					 min = Math.abs(middle.get(j)-middle_centroid);
-				 }
-			 }
-			 
-			 for(int j = AdjustParameter.PreWordNum; j < GroupFiveTupleCollection.get(flag).size() - AdjustParameter.SufWordNUm; j++){
-				 temp_pattern.add((WeightTuples)GroupFiveTupleCollection.get(flag).get(j));
-			 }
+ 			 //每个该组中每个向量和中心向量比较，求出最相似的向量，保存其句子五院组
+ 			 MatchVectorSim matchVectorSim = new MatchVectorSim();
+ 			 float SimValue = 0f, Max = 0f;
+ 			 int flag = 0;
+ 			 for(int j = 0; j < GroupFiveTupleCollection.size(); j++){
+ 				SimValue = matchVectorSim.VectorSim(center_vector, GroupFiveTupleCollection.get(j).vector);
+ 				if(SimValue > Max){
+ 					Max = SimValue;
+ 					flag = j;
+ 				}
+ 			 }
+ 			 center_sentence = GroupFiveTupleCollection.get(flag).sentence;
  			 
- 			 //后缀的中心向量
-			 min = 1.0;
-			 flag= -1;
-			 for(int j = 0; j < suffix.size(); j++){
-				 if(Math.abs(suffix.get(j)-suffix_centroid) < min){
-					 flag = j;
-					 min = Math.abs(suffix.get(j)-suffix_centroid);
-				 }
-			 }
-			 
-			 for(int j = GroupFiveTupleCollection.get(flag).size() - AdjustParameter.SufWordNUm; j < GroupFiveTupleCollection.get(flag).size(); j++){
-				 temp_pattern.add((WeightTuples)GroupFiveTupleCollection.get(flag).get(j));
-			 }
- 			 
-			 
- 			 if(group_pattern.getPattern(Entity) != null){
-   			    group_pattern.getPattern(Entity).add(temp_pattern);			    	 
-		     }else{
-		    	 tuple.add(temp_pattern);
-		    	 group_pattern.putPattern(Entity,tuple);
-		     }
- 			 
+ 			 //2017.3.22修改本次迭代产生模板和上一次迭代产生的模板匹配，如果满足阈值条件，则用此次产生的模板进行实体抽取
+ 			 FeatureStore temp_pattern = new FeatureStore();//临时模板
+		     temp_pattern.sentence = center_sentence;
+		     temp_pattern.vector = center_vector;//这里本应该一个一个添加，直接赋值可能会出问题
+			 ArrayList<FeatureStore> tuple = new ArrayList<>();
+ 			 if(tempEntityStore.getPattern(Entity.substring(0, Entity.indexOf(AdjustParameter.RecognizeFlag))) != null){//找到上一次迭代中产生这个实体的模板
+ 				 ArrayList<FeatureStore> last_pattern = new ArrayList<>();
+ 				 last_pattern.clear();
+ 				 last_pattern = TempEntityStore.temp_entity.get(Entity.substring(0, Entity.indexOf(AdjustParameter.RecognizeFlag)));
+ 			     int judge = 0;
+ 				 for(int g = 0; g < last_pattern.size(); g++){
+ 					if(matchVectorSim.VectorSim(last_pattern.get(g).vector, temp_pattern.vector) > threhold){//如果本次实体产生的模板和上一次迭代产生该实体的模板只要有一个模板向量相似度超过阈值
+ 						judge ++;
+ 						break;
+ 					}
+ 				 }
+ 				 
+ 				 //System.out.println("judge");
+ 				 
+ 				 if(judge == last_pattern.size()){
+ 					 
+ 					 //System.out.println("相等");
+					 
+ 					 if(group_pattern.temp_pattern.get(Entity) != null){
+					    group_pattern.temp_pattern.get(Entity).add(temp_pattern);			    	 
+				     }else{
+				    	 tuple.add(temp_pattern);
+				    	 group_pattern.temp_pattern.put(Entity,tuple);
+				     }
+ 				 }
+ 			 }else{
+ 				 if(group_pattern.temp_pattern.get(Entity) != null){
+				    group_pattern.temp_pattern.get(Entity).add(temp_pattern);			    	 
+			     }else{
+			    	 tuple.add(temp_pattern);
+			    	 group_pattern.temp_pattern.put(Entity,tuple);
+			     }
+ 			 }
+ 			 //2017.3.22修改结束
  		 }
     	 
  		 //测试数据

@@ -1,0 +1,15 @@
+coronary artery disease,myocardial infarction
+cad,mi
+sle,pericarditis
+including a,for pseudomonas
+including a,and beta
+hiv,last cd4 count
+ekg,sinus tachycardia
+physical examination,acute distress
+blood cultures,growth
+percocet,pain
+oxycodone,pain
+immunization,influenza
+known allergies,drugs
+complications,the procedure
+the procedure,complications

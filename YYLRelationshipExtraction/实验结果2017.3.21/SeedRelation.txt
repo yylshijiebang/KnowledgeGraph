@@ -1,0 +1,11 @@
+glaucoma,glaucoma
+pressure,glaucoma
+glaucoma,ocular hypertension
+open-angle glaucoma,ocular hypertension
+open-angle glaucoma,glaucoma
+pressure,pressure
+glaucoma,pressure
+glaucoma,disease
+glaucoma,open-angle glaucoma
+cataract,glaucoma
+disease,disease

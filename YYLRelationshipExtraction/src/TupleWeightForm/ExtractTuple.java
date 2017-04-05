@@ -10,14 +10,15 @@ import java.util.HashMap;
 
 import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
+import FeatureExtract.FeatureStore;
 import NameEntityRecognize.TrieDictionary;
 import NameEntityRecognize.WordNetHelper;
 import StaticConstant.AdjustParameter;
+import StaticConstant.ConstantParameter;
 import StaticConstant.NonChiSplit;
 
 
 public class ExtractTuple {
-	  //static ArrayList<ArrayList> PatternTuples = new ArrayList<>();
 	  String entity_start = "[entity_start]";
 	  String entity_end = "[entity_end]";
 	  
@@ -28,7 +29,7 @@ public class ExtractTuple {
 		    BufferedWriter bw = null;
 		    FileWriter fileWriter=null;
 			try{
-				fileWriter = new FileWriter("E:/北航文件/编程程序/EnglishSegTest/SentenceTuple.txt",true);
+				fileWriter = new FileWriter("D:/YYLSoftware/Program/YYLRelationshipExtraction/SentenceTuple.txt",true);
 				bw = new BufferedWriter(fileWriter);
 			    bw.write(glaucoma);
 			    bw.newLine();  
@@ -44,244 +45,168 @@ public class ExtractTuple {
 			}
 	  }
 	  
-	  //抽取元组关系
-	  public  ArrayList<HashMap<String, Integer>> ExtractTuples(String Sentence,String Entity, TuplesStore tuplesStore){
+	  //抽取五元组向量和五元组组句子
+	  public void ExtractTuples(int k,String Entity, TuplesStore tuplesStore){
 		  
+		    int i,j;
+			String word = "";
+			char c;
+			
+			//是否符合词向量标记
+			int flag = 0;
+			
+			//保存句子和五元组向量
+			String Sentence = FeatureStore.SentenceVector.get(k).sentence;
+			ArrayList<Float> five_tuple_vector = new ArrayList<>();
+			for(int g = 0; g < FeatureStore.SentenceVector.get(k).vector.size(); g++)
+			    five_tuple_vector.add(FeatureStore.SentenceVector.get(k).vector.get(g)); 
+			
+			//System.out.println("ExtractTuplesSentence:"+ Sentence);
+			
+			//种子实体对中实体的保存
 			String FirstEntity = "",SecondEntity = "";
-			//将实体对的第一个和第二个实体分别保存
 		    FirstEntity = Entity.substring(0,Entity.indexOf(','));
 		    SecondEntity = Entity.substring(Entity.indexOf(',')+1,Entity.length());
 		    
-//		    System.out.println(FirstEntity);
-//		    System.out.println(SecondEntity);
+		    //System.out.println("ExtractTuplesEntity:"+ FirstEntity + ":" + SecondEntity);
+			
+			//得到句子中每个实体的位置
+		    int FirstEntityStartLocate = -1;
+		    int FirstEntityEndLocate = -1;
 		    
-			//调用TrieDictionary建立字典树
-//			NameEntityRecognize.TrieDictionary dict = null;
-//	        dict = TrieDictionary.getInstance(Entity);
-//	        
-//	        //按照字典树保存的实体最长匹配单实体
-//			IdentityTuple  mmsegger = new IdentityTuple();
-//			int locate[] = new int [3];
-//	        locate = mmsegger.seg(Sentence,dict,Entity);
-//				
-//	        //第一个第二个实体分别在句子中的位置
-		    //2017/2/8使用全匹配的方法，识别实体，得到元组
-		    int FirstEntityLocateStart = -1, FirstEntityLocateEnd = -1, SecondEntityLocateStart = -1, SecondEntityLocateEnd = -1;//实体在语句中的位置
-		    FirstEntityLocateStart = Sentence.indexOf(entity_start);
-		    FirstEntityLocateEnd = Sentence.indexOf(entity_end);
+		    int SecondEntityStartLocate = -1;
+		    int SecondEntityEndLocate = -1;
 		    
-		    SecondEntityLocateStart = Sentence.indexOf(entity_start,FirstEntityLocateEnd);
-		    SecondEntityLocateEnd = Sentence.indexOf(entity_end,SecondEntityLocateStart);
+		    //句子中两个实体的保存
+	        String SentenceFirstEntity = "", SentenceSecondEntity = "";
+	       
+	        FirstEntityStartLocate = Sentence.indexOf(entity_start);
+	        FirstEntityEndLocate = Sentence.indexOf(entity_end);
+	        SecondEntityStartLocate = Sentence.indexOf(entity_start,FirstEntityEndLocate);
+	        SecondEntityEndLocate = Sentence.indexOf(entity_end,SecondEntityStartLocate);
+	        if(FirstEntityStartLocate + entity_start.length() + 1 < FirstEntityEndLocate - 1 && SecondEntityStartLocate + entity_start.length() + 1< SecondEntityEndLocate - 1){
+	           SentenceFirstEntity = Sentence.substring(FirstEntityStartLocate + entity_start.length() + 1,FirstEntityEndLocate - 1);
+	           SentenceSecondEntity = Sentence.substring(SecondEntityStartLocate + entity_start.length() + 1,SecondEntityEndLocate - 1);
+	        }
+	        
+	        //System.out.println("ExtractTuplesSentenceEntity:"+ SentenceFirstEntity + ":" + SentenceSecondEntity);
+	        
+	        //重新初始化句子中实体位置变量
+	        FirstEntityStartLocate = -1;
+		    FirstEntityEndLocate = -1;
 		    
-		    ArrayList<HashMap<String, Integer>> TempList = new ArrayList();
-	    	HashMap<String, Integer>   prefix = new HashMap<>();
-	        HashMap<String, Integer>   middle = new HashMap<>();
-	        HashMap<String, Integer>   suffix = new HashMap<>();
-	        String middle_string = "";
-	        
-	        //保存抽取的元组
-	        ArrayList TempTuple = new ArrayList();
-	        
-		    //处理两个实体的左中右字符串
-	        String FirstEntityLocate = "", SecondEntityLocate = "";
-	        
-	        FirstEntityLocate = Sentence.substring(FirstEntityLocateStart + entity_start.length() + 1,FirstEntityLocateEnd - 1);
-	        SecondEntityLocate = Sentence.substring(SecondEntityLocateStart + entity_start.length() + 1,SecondEntityLocateEnd - 1);
-	        
-	        //System.out.println("句子中的实体：" + FirstEntityLocate+ " " + SecondEntityLocate);
-	        //System.out.println("种子中的实体" + FirstEntity+ " " + SecondEntity);
-	        
-		    if(FirstEntityLocate.equals(FirstEntity) && SecondEntityLocate.equals(SecondEntity)){
-		        
-//			    	System.out.println(FirstEntityLocate+ " " + SecondEntityLocate);
-//			    	System.out.println(Sentence);
-		    	
-		    		//得到原文单词的词干
-//		    		WordNetHelper getstem = new WordNetHelper();
-		    		//得到前缀的单词
-		    		int i_first = 0;
-		    		char c;
-		    	    //保存从句子中读取的单词
-		    	    StringBuffer word = new StringBuffer();
-		    	    //前中后缀单词个数限制
-		    	    int word_number = 0;
-		    	    
-		    	    //前缀单词统计
-		    	    ArrayList<String> preWord = new ArrayList<>();
-		    	    i_first = FirstEntityLocateStart-1;
-		    	    
-		    	    //处理掉第一个实体前的所有空格
-		    	    while(true){
-		    	    	if(i_first < 0){
-		    	    		break;
-		    	    	}
-		    	    	else if(Character.isLetter(Sentence.charAt(i_first))){
-		    	    		break;
-		    	    	}
-		    	    	i_first --;
-		    	    }
-		    		for(; i_first >= 0; i_first--){
-		    		   	c = Sentence.charAt(i_first);
-		    		   	
-//		    		   	boolean isLetter = false;
-//			    	    int isLetterJudge = 0;
-		    		   	
-		    		    if(word_number == AdjustParameter.PreWordNum)
-		    		   		break;
-		    		   	//找到一个单词
-		    		   	if(c == ' '||i_first == 0||NonChiSplit.isCharSeperator(c)){
-		    		   		String word_reverse = "";
-		    		   		if(i_first == 0)
-		    		   			word.append(c);
-		    		   		//将反向字母转成正向，得到单词保存在变量中
-		    		   		word_reverse = word.reverse().toString();
-		    		   		
-				    	    if(!prefix.containsKey(word_reverse)){//如果前缀哈希表中没有包含该单词
-		    		   			if(!"".equals(word_reverse))//该单词不为空
-		    		   		       prefix.put(word_reverse, 1);//将该该单词按照String,int形式保存起来,得到前缀中该单词的个数
-		    		   		}
-		    		   		else{//否则，该单词在之前的前缀中出现过，该单词所对应的频数加一
-		    		   			prefix.put(word_reverse,prefix.get(word_reverse)+1);
-		    		   		}
-		    		   		word = new StringBuffer();
-		    		   		word_number += 1;
-		    		   		
-		    		   		//改变量里保存的前缀单词是倒着存的，所以在提取的时候需要正着取，所以每次一个句子中的前缀单词先暂存在preword变量中，接下来在正向保存到TempTuple中，为计算元组的权重做准备
-		    		   		if(!"".equals(word_reverse))
-		    		   		   preWord.add(word_reverse);
-		    		   	}
-		    		   	else{
-		    		   		word.append(c);
-		    		   	}
-		    		}
-		    		
-		    		//正向保存前缀的词
-		    		int j = 0;
-		    		//2016/12/13改动
-		    		
-	    			for(j = 0; j < AdjustParameter.PreWordNum - preWord.size(); j++){
-	    				TempTuple.add("");
-	    			}
-	    			for(j = preWord.size()-1; j >= 0; j--){
-	    				TempTuple.add(preWord.get(j));
-	    			}
-		    		//2016/12/13改动结束
-		    		
-		    		//前缀保存结束后，保存第一个实体
-		    		TempTuple.add(FirstEntity);
-		    		
-		    		//中缀单词统计
-		    		word = new StringBuffer();
-		    		int i_end = 0;
-		    		i_end =  SecondEntityLocateStart - 1;
-			    	while(true){
-			    		if(i_end < 0){
-			    			break;
-			    		}
-			    		else if(!Character.isLetter(Sentence.charAt(i_end))){
-			    	    	break;
-			    	    }
-			    	    i_end --;
-			    	}
-		    		for(i_first = FirstEntityLocateEnd + entity_end.length() + 1; i_first <= i_end; i_first++){
-		    		   	c = Sentence.charAt(i_first);
-		    		   	
-		    		   	//找到一个单词
-		    		   	if(c == ' '||i_first == i_end||NonChiSplit.isCharSeperator(c)){
-		    		   		String word_middle = "";
-		    		   		word_middle = word.toString();
-		    		   		
-		    		   		if(!middle.containsKey(word_middle)){
-		    		   			if(!"".equals(word_middle))
-		    		   		       middle.put(word_middle, 1);
-		    		   		}
-		    		   		else{
-		    		   			middle.put(word_middle,middle.get(word_middle)+1);
-		    		   		}
-		    		   		word = new StringBuffer();
-		    		   		
-		    		   		if(!"".equals(word_middle))
-		    		   		    TempTuple.add(word_middle);
-		    		   		
-		    		   	}
-		    		   	else{
-		    		   		word.append(c);
-		    		   	}
-		    		}
-		    		
-		    		//中缀保存结束后保存第二个实体
-		    		TempTuple.add(SecondEntity);
-		    		
-		    		//后缀单词统计
-		    		word = new StringBuffer();
-		    		word_number = 0;
-		    		ArrayList<String> suffWord = new ArrayList<>();
-		    		for(i_first = SecondEntityLocateEnd + entity_end.length() + 1; i_first < Sentence.length(); i_first++){
-		    		   	c = Sentence.charAt(i_first);
-		    		   	
-		    		   	if(word_number == AdjustParameter.SufWordNUm)
-		    		   		break;
-		    		   	
-		    		   	//找到一个单词
-		    		   	if(c == ' '||i_first == (Sentence.length()-1)||NonChiSplit.isCharSeperator(c)){   		
-		    		   		
-		    		   		String word_suffix = "";
-		    		   		word_suffix = word.toString();
-		    		   		
-		    		   		if(!suffix.containsKey(word_suffix)){
-		    		   			if(!"".equals(word_suffix))
-		    		   		      suffix.put(word_suffix, 1);
-		    		   		}
-		    		   		else{
-		    		   			suffix.put(word_suffix,suffix.get(word_suffix)+1);
-		    		   		}
-		    		   		word = new StringBuffer();
-		    		   		word_number += 1;
-		    		   		
-		    		   		//SuffixWords += word_suffix + " ";
-		    		   		if(!"".equals(word_suffix))
-		    		   		   suffWord.add(word_suffix);
-		    		   	}
-		    		   	else{
-		    		   		word.append(c);
-		    		   	}
-		    		}
-		    		
-		    		//保存后缀单词
-		    		//2016/12/13改动
-		    		for(j = 0; j < suffWord.size(); j++){
-		    			TempTuple.add(suffWord.get(j));
-		    		}
-		    		for(j = suffWord.size(); j < AdjustParameter.SufWordNUm; j++){
-		    			TempTuple.add("");
-		    		}
-		    		//2016/12/13改动结束
-		    		
-	    			TempList.add(prefix);
-	    			TempList.add(suffix);
-	    			TempList.add(middle);
-	    			
-//	    			System.out.println("TempTuple: " + TempTuple);
-//	    			System.out.println("prefix: " + prefix);
-//	    			System.out.println("middle: " + middle);
-//	    			System.out.println("suffix: " + suffix);
-	    			
-	    			//保存五元组
-	    			ArrayList<ArrayList> Tuple = new ArrayList<>();
-	    			Tuple.add(TempTuple);
+		    SecondEntityStartLocate = -1;
+		    SecondEntityEndLocate = -1;
+		   
+		    if(SentenceFirstEntity.equals(FirstEntity) && SentenceSecondEntity.equals(SecondEntity)){//如果种子中的实体和句子中的实体匹配
+				    int word_num = 0;
+				    String five_tuple = "";//保存五元组
+				    for(j = 0; j < Sentence.length(); j++){
+				    	c = Sentence.charAt(j);
+				    	//如果该字符c是空格，则是一个单词
+				    	if(c == ' '|| j == Sentence.length()-1){
+				    		if(j == Sentence.length()-1){
+				    			word += c;
+				    		}
+		//		    		SentenceHash.put(word,word_num);
+				    	    //保存实体位置
+				    		if(word.equals(entity_start)){
+				    			if(FirstEntityStartLocate == -1){
+				    				FirstEntityStartLocate = word_num;
+				    			}else{
+				    				SecondEntityStartLocate = word_num;
+				    			}
+				    		}else if(word.equals(entity_end)){
+				    			if(FirstEntityEndLocate == -1){
+				    				FirstEntityEndLocate = word_num;
+				    			}else{
+				    				SecondEntityEndLocate = word_num;
+				    			}
+				    		}
+				    		word_num ++;
+				    		word = "";
+				    	}else{
+				    		word += c; 
+				    	} 
+				    }
+				    
+				   // System.out.println("Sentence:"+Sentence);
+				   // System.out.println("EntityLocate:"+ FirstEntityStartLocate + ":" + FirstEntityEndLocate + ":" + SecondEntityStartLocate + ":" + SecondEntityEndLocate);
+				    
+				    
+				    word_num = 0;
+				    word = "";
+					//得到句子中前中后缀单词
+					for(j = 0; j < Sentence.length(); j++){
+				    	c = Sentence.charAt(j);
+				    	//如果该字符c是空格，则是一个单词
+				    	if(c == ' '|| j == Sentence.length()-1){
+				    		if(j == Sentence.length()-1){
+				    			word += c;
+				    		}
+				    		int p1 = -1;//单词到第一个实体的距离
+				    	    int p2 = -1;//单词到第二个实体的距离
+				    	    flag = 0;
+				    		if(!word.equals(entity_start) && !word.equals(entity_end)){//如果单词不是实体标志
+					    		if(word_num < FirstEntityStartLocate){//第一个实体前的单词
+					    			p1 = 0 - (FirstEntityStartLocate - word_num); 
+					    			p2 = 0 - (SecondEntityStartLocate - word_num);
+					    			if((0-p1) <= AdjustParameter.PreWordNum){//如果属于第一个实体前3个单词之内
+					    				flag = 1;
+					    			}
+//					    		}else if(word_num > FirstEntityStartLocate && word_num < FirstEntityEndLocate){//第一个实体
+//					    			p1 = 0;
+//					    			p2 = FirstEntityEndLocate - SecondEntityStartLocate;
+//					    			flag = 2;
+					    		}else if(word_num > FirstEntityEndLocate && word_num < SecondEntityStartLocate){//第一个实体和第二个实体之间的单词
+									p1 = word_num - FirstEntityEndLocate;
+									p2 = 0 - (SecondEntityStartLocate - word_num);
+									flag = 1;
+//								}else if(word_num > SecondEntityStartLocate && word_num < SecondEntityEndLocate){//第二个实体
+//									p1 = FirstEntityEndLocate - SecondEntityStartLocate;
+//									p2 = 0;
+//									flag = 2;
+								}else if(word_num > SecondEntityEndLocate){//第二个实体后的单词
+									p1 = word_num - FirstEntityEndLocate;
+									p2 = word_num - SecondEntityEndLocate;
+									if(p2 <= AdjustParameter.SufWordNUm){//如果属于第二个实体后三个单词之内
+										flag = 1;
+									}
+								}
+					    		
+					    		//System.out.println("word:"+ word + ":"+"distant:"+p1+":"+p2);
+					    		
+					    	    //得到前中后缀单词
+					    		if(flag == 1){
+						    		five_tuple += word + " ";
+//					    		}else if(flag == 2){
+//					    			five_tuple += word + " ";
+					    		}
+				    		}else if(!word.equals(entity_start)){
+				    		     five_tuple += "| "; 
+				    		}
+				    		word_num ++;
+				    		word = "";
+				    	}else{
+				    		word += c; 
+				    	} 
+				    }
+					//保存实体对和其五元组向量和五元组句子
+					FeatureStore featureStore = new FeatureStore();
+					featureStore.sentence = five_tuple;
+					for(int g = 0; g < five_tuple_vector.size(); g++){
+					     featureStore.vector.add(five_tuple_vector.get(g));
+					}
+				    
+					//System.out.println("ExtractTuplesFeatureStore:"+ featureStore.sentence + ":" + featureStore.vector);
+				
+	    		    ArrayList<FeatureStore> Tuple = new ArrayList<>();
+	    			Tuple.add(featureStore);
 	    			if(tuplesStore.getKey(Entity) != null){
-	    				tuplesStore.getKey(Entity).add(TempTuple);
+	    				tuplesStore.getKey(Entity).add(featureStore);
 	    			}else{
 	    				tuplesStore.putTuples(Entity,Tuple);
 	    			}
-	    			
-	    			//WriteIntoFile("1"+"$"+FirstEntity+"$"+SecondEntity+"$"+prefix+"$"+suffix+"$"+middle);
-		    	
-		    	//PatternTuples.add(TempList);
-		    	
-		    	//WriteIntoFile(Sentence);
-		    	
 		    }
-		    return TempList;
 	  }
 }

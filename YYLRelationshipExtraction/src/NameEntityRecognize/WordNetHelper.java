@@ -17,7 +17,7 @@ import edu.mit.jwi.morph.WordnetStemmer;
 
 public class WordNetHelper {
     // file path of WordNet
-    static String path = "E:/KnowledgeGraphApp/data/WordNet-3.0/dict";
+    static String path = "D:/YYLSoftware/Program/javakit/WordNet-3.0/dict";
     //建立词典对象并打开它
     static IDictionary dict = new Dictionary(new File(path));
     // stemmer is the recognizer of words, eg. input "ate", output eat
